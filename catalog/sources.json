@@ -1,4 +1,21 @@
 {
   "schema": 1,
-  "releases": []
+  "releases": [
+    {
+      "id": "automatic-geometry",
+      "version": "0.1.2.0",
+      "repository": "joshua-small/qsys-automatic-geometry",
+      "commit": "21557197397d622a7c0f4da40e035613c8ea6b27",
+      "tag": "v0.1.2",
+      "recordSha256": "f6c881f8b367c1554341125bfeae41675e65dcc19c7f0f37949da00c3e96289a"
+    },
+    {
+      "id": "schematic-tools",
+      "version": "0.15.1.0",
+      "repository": "joshua-small/qsys-schematic-tools",
+      "commit": "6504f8bc8fd2dd040c91137c1c28026bc43740dd",
+      "tag": "v0.15.1",
+      "recordSha256": "1a6e4f8d262ab2f5dc3e4385eeabcff4af1bbd59a8c585185bfc7c01bc95371e"
+    }
+  ]
 }
