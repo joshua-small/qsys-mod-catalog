@@ -33,6 +33,8 @@ Schema-1 historical packages still include their old activation markers because 
 
 ## Operations
 
+Unchanged historical records reuse their signed receipts and GitHub asset digests; older assets without digests require only a descriptor read. Every new release receives full source, artwork and package verification. Changed or missing historical descriptors stop publication. Downloads in QMM always verify the pinned package hash.
+
 The collector runs hourly and can be started with **Actions → Approved catalog → Run workflow** on main. Validation failure leaves the published catalog unchanged and appears as a failed Actions run. An unchanged collection produces no commit or new signature. Concurrent publication fails without overwriting another writer.
 
 Approval is not a malware guarantee. Reports about an approved mod should be filed in this repository and the mod's source repository. Revocation policy and emergency blocking require an explicit design because deleting a mod's approval would also prevent restoring existing profiles; the current contract preserves approvals and pins.

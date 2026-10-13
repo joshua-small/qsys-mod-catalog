@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: joshua-small/qsys-mod-manager
-          ref: a70e7273e6786ed2ae163c81267f73131e0612bc
+          ref: 9fda78006273c91b56302395c7c33e60d5911c6b
           path: tooling
           persist-credentials: false
       - uses: actions/setup-dotnet@v6
@@ -57,7 +57,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           repository: joshua-small/qsys-mod-manager
-          ref: a70e7273e6786ed2ae163c81267f73131e0612bc
+          ref: 9fda78006273c91b56302395c7c33e60d5911c6b
           path: tooling
           persist-credentials: false
       - uses: actions/setup-dotnet@v6
