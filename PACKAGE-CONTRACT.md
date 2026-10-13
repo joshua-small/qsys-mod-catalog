@@ -59,4 +59,3 @@ The packer selects the last approved schema-2 layout, hashes each file, checks t
 Package import remains available for separately supplied archives that match an approved identity and layout. Import verifies structure, all payload hashes, assembly identity, shared hashes and exact compatibility; it does not establish that the archive was published by its claimed author. Downloads from the catalog additionally verify the approved repository address, archive size and archive hash.
 
 The publisher compares the release record with the package and with the mod repository's immutable source files. Collection repeats these checks before appending the version to the signed feed. Historical package pins and receipts cannot be changed or removed by routine automation.
-

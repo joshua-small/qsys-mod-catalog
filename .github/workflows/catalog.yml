@@ -1,0 +1,98 @@
+name: Approved catalog
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  approvals:
+    name: Validate approvals
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/checkout@v7
+        with:
+          repository: joshua-small/qsys-mod-manager
+          ref: a70e7273e6786ed2ae163c81267f73131e0612bc
+          path: tooling
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: tooling/global.json
+      - name: Validate declarations and preserve historical permissions
+        env:
+          BASE_REVISION: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          mkdir -p artifacts
+          if [ -n "$BASE_REVISION" ] && git cat-file -e "$BASE_REVISION:approvals.json" 2>/dev/null; then
+            git show "$BASE_REVISION:approvals.json" > artifacts/base-approvals.json
+          else
+            cp tooling/catalog/approvals.json artifacts/base-approvals.json
+          fi
+          dotnet run --project tooling/CatalogTool/QdsModManager.CatalogTool.csproj -- approvals approvals.json artifacts/base-approvals.json
+  collect:
+    needs: approvals
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: publish-approved-catalog
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v7
+        with:
+          ref: published
+          path: generated
+      - uses: actions/checkout@v7
+        with:
+          repository: joshua-small/qsys-mod-manager
+          ref: a70e7273e6786ed2ae163c81267f73131e0612bc
+          path: tooling
+          persist-credentials: false
+      - uses: actions/setup-dotnet@v6
+        with:
+          global-json-file: tooling/global.json
+      - name: Verify releases as data and retain all historical pins
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          dotnet run --project tooling/CatalogTool/QdsModManager.CatalogTool.csproj -- verify-baseline generated/catalog
+          dotnet run --project tooling/CatalogTool/QdsModManager.CatalogTool.csproj -- approvals approvals.json generated/catalog/approvals.json
+          cp approvals.json generated/catalog/approvals.json
+          dotnet run --project tooling/CatalogTool/QdsModManager.CatalogTool.csproj -- --approvals approvals.json sync generated/catalog artifacts/packages
+      - name: Sign only validated catalog data
+        env:
+          CATALOG_SIGNING_KEY: ${{ secrets.CATALOG_SIGNING_KEY }}
+        run: |
+          if git -C generated diff --quiet -- catalog/index.json catalog/presentation.json catalog/sources.json catalog/approvals.json; then exit 0; fi
+          umask 077
+          key="$RUNNER_TEMP/catalog-signing-key.pem"
+          trap 'rm -f "$key"' EXIT
+          printf '%s' "$CATALOG_SIGNING_KEY" > "$key"
+          dotnet run --project tooling/CatalogTool/QdsModManager.CatalogTool.csproj -- sign generated/catalog "$key" generated/catalog/feed.json
+      - name: Publish generated catalog without changing approval policy
+        run: |
+          cd generated
+          if git diff --quiet -- catalog; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog/index.json catalog/presentation.json catalog/sources.json catalog/approvals.json catalog/feed.json
+          git commit -m 'Publish verified releases from approved mod repositories'
+          # Ordinary fast-forward push fails on a concurrent writer; never replace their work.
+          git push origin HEAD:published
+      - uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: catalog-validation
+          path: generated/catalog/
