@@ -8,7 +8,8 @@
       "helpUrl": "https://github.com/joshua-small/qsys-automatic-geometry",
       "releaseNotes": {
         "0.1.1.0": "Automatic component widths for full control-pin labels, plus 10-unit Container and Channel Group connectors with centered labels and pins. Restart Designer; no extra action is needed."
-      }
+      },
+      "thumbnailSha256": null
     },
     {
       "id": "schematic-tools",
@@ -17,7 +18,8 @@
       "helpUrl": "https://github.com/joshua-small/qsys-schematic-tools",
       "releaseNotes": {
         "0.15.0.0": "Packing, icon search, editor shortcuts, snapshot indicators, and snapshot value comparison for Q-SYS Designer 10.5. Restart Designer after installation. Open Edit \u2192 Schematic Tools to get started."
-      }
+      },
+      "thumbnailSha256": null
     }
   ]
 }
