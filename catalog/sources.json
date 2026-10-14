@@ -10,12 +10,84 @@
       "recordSha256": "f6c881f8b367c1554341125bfeae41675e65dcc19c7f0f37949da00c3e96289a"
     },
     {
+      "id": "better-packing",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-better-packing",
+      "commit": "d371e58368be3b83d03adcdb2ac84a997974e015",
+      "tag": "v0.1.0",
+      "recordSha256": "0414c5b0a8293e91a90a03507d79042ffe4bcb420bb034fc29b9ed589e6a692a"
+    },
+    {
+      "id": "better-shortcuts",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-better-shortcuts",
+      "commit": "2264d3e2e0a7a7833d2909d952cb4d71153ecb2d",
+      "tag": "v0.1.0",
+      "recordSha256": "25fd399f75f007d4965e21874a6c7406aa566f43d0a77d6586c7d09183fa57f8"
+    },
+    {
+      "id": "color-palette-aligned",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-color-palette-aligned",
+      "commit": "be2c616abf512d439021aa7e5fb80110cb110f0e",
+      "tag": "v0.1.0",
+      "recordSha256": "98e7413336a84a363eaee41035fd1528fb8aa60a1abb7e29c1b0cbd8a840e9ad"
+    },
+    {
+      "id": "component-controls-info-filter",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-component-controls-info-filter",
+      "commit": "837c03d77ef5d536a3b6189df04dc8a0c4192034",
+      "tag": "v0.1.0",
+      "recordSha256": "922eeee110e69b4fd9fc0917690abba0a16fe675a151edb1618f2620c6687c08"
+    },
+    {
+      "id": "icons-filter",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-icons-filter",
+      "commit": "37728f940be29adb8039917c9e0132a72b9f98fd",
+      "tag": "v0.1.0",
+      "recordSha256": "fd3d166f0daffda917669f936f965e57b321c02ac5aa671f2bb89a010ed5bbd5"
+    },
+    {
+      "id": "mods-core",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-mods-core",
+      "commit": "55d1a83f5cb92bbbcfdeef6cf12435f7e5d860b3",
+      "tag": "v0.1.0",
+      "recordSha256": "b2e647b385713fd53284730d84177febdfe27cc0ae093b4a8c0606e8e9cfc546"
+    },
+    {
+      "id": "named-signal-colors",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-named-signal-colors",
+      "commit": "298d881ee1ab5dacc53af6efc6a3b40b5ab08d73",
+      "tag": "v0.1.0",
+      "recordSha256": "d2c4279702ad66fef403d62351c776cbe04d0b890d0f4e33d7afe765cfc24318"
+    },
+    {
       "id": "schematic-tools",
       "version": "0.15.1.0",
       "repository": "joshua-small/qsys-schematic-tools",
       "commit": "6504f8bc8fd2dd040c91137c1c28026bc43740dd",
       "tag": "v0.15.1",
       "recordSha256": "1a6e4f8d262ab2f5dc3e4385eeabcff4af1bbd59a8c585185bfc7c01bc95371e"
+    },
+    {
+      "id": "schematic-tools",
+      "version": "0.17.0.0",
+      "repository": "joshua-small/qsys-schematic-tools",
+      "commit": "02d34f792c0f31f07dd7b62648af699e8690bc64",
+      "tag": "v0.17.0",
+      "recordSha256": "bf4cb6285770e16fbadb3caf74fb218d74c184925e0caf79f13df6e40fa2d612"
+    },
+    {
+      "id": "snapshot-inspector",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-snapshot-inspector",
+      "commit": "a53fde26055346f071e474afe3980dfbbf93a3b3",
+      "tag": "v0.1.0",
+      "recordSha256": "52529d96b46e416548499c57725e9286b02b8c2a5c902572d127d81e8edf901b"
     }
   ]
 }

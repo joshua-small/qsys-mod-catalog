@@ -28,9 +28,128 @@
       ]
     },
     {
+      "id": "better-packing",
+      "name": "Better Packing",
+      "description": "Pack schematic components and Layout items with exposed control-pin spacing, a saved gap, and optional replacement of native Pack commands.",
+      "repository": "joshua-small/qsys-better-packing",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-packing/releases/download/v0.1.0/better-packing-0.1.0.qdsmod",
+          "sha256": "872272db3e14e41f088b66136ba9e8de32ed34349a8761c2c0493d05329cdf82",
+          "size": 18705
+        }
+      ]
+    },
+    {
+      "id": "better-shortcuts",
+      "name": "Better Shortcuts",
+      "description": "Customize shortcuts for mod commands and native Designer commands, including dark mode, sidebars, programmer mode, and component controls.",
+      "repository": "joshua-small/qsys-better-shortcuts",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-shortcuts/releases/download/v0.1.0/better-shortcuts-0.1.0.qdsmod",
+          "sha256": "4852f26329336e090a07c6ac456187036430cf0c05e4b815c9d5023c90c138e9",
+          "size": 16717
+        }
+      ]
+    },
+    {
+      "id": "color-palette-aligned",
+      "name": "Color Palette Aligned",
+      "description": "Align the Designer color palette into consistent rows.",
+      "repository": "joshua-small/qsys-color-palette-aligned",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-color-palette-aligned/releases/download/v0.1.0/color-palette-aligned-0.1.0.qdsmod",
+          "sha256": "727da48d2d4af9de165c91aa76382e82886371fc583cbb15ea6f3a2e987bc267",
+          "size": 6050
+        }
+      ]
+    },
+    {
+      "id": "component-controls-info-filter",
+      "name": "Component Controls Info Filter",
+      "description": "Filter Component Controls Info by control name and type.",
+      "repository": "joshua-small/qsys-component-controls-info-filter",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-component-controls-info-filter/releases/download/v0.1.0/component-controls-info-filter-0.1.0.qdsmod",
+          "sha256": "0b83d5ccccb1b2ecbdae784e6cbc65a53d474e3314819b2c7eaabf01254b5ae3",
+          "size": 7517
+        }
+      ]
+    },
+    {
+      "id": "icons-filter",
+      "name": "Icons Filter",
+      "description": "Search the Designer icon picker with text and aliases.",
+      "repository": "joshua-small/qsys-icons-filter",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-icons-filter/releases/download/v0.1.0/icons-filter-0.1.0.qdsmod",
+          "sha256": "b270f4e63e33ce524525e58abf3f80d852e22b4069fe74fe1ff5fc52f35bf65e",
+          "size": 11280
+        }
+      ]
+    },
+    {
+      "id": "mods-core",
+      "name": "Q-SYS Mods Core",
+      "description": "Shared Preferences, command registration, host compatibility checks, and theme integration for Q-SYS Designer mods.",
+      "repository": "joshua-small/qsys-mods-core",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-mods-core/releases/download/v0.1.0/mods-core-0.1.0.qdsmod",
+          "sha256": "165591f5cd7c3598ea392592b3d21c5a803d06cf17884ea4a44caac018e4c8a4",
+          "size": 828280
+        }
+      ]
+    },
+    {
+      "id": "named-signal-colors",
+      "name": "Named Signal Colors",
+      "description": "Preview and apply role-based colors to Named Signals, with a saved palette and an optional default-color filter.",
+      "repository": "joshua-small/qsys-named-signal-colors",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-named-signal-colors/releases/download/v0.1.0/named-signal-colors-0.1.0.qdsmod",
+          "sha256": "7d5fcc12ec02e7c737bb8922a7b1a79a23194c563b3104a1521af47fd78398e7",
+          "size": 31599
+        }
+      ]
+    },
+    {
       "id": "schematic-tools",
       "name": "Schematic Tools",
-      "description": "Packing and shortcuts, named-signal colors, aligned color palette, icon search, editor shortcuts, and snapshot tools.",
+      "description": "Optional selection diagnostics for mod developers. Hidden unless /mods-dev or native development mode is already enabled.",
       "repository": "joshua-small/qsys-schematic-tools",
       "releases": [
         {
@@ -50,6 +169,32 @@
           "url": "https://github.com/joshua-small/qsys-schematic-tools/releases/download/v0.15.1/schematic-tools-0.15.1.qdsmod",
           "sha256": "a212beedbc84f629cb8d363c79830cc91490e3c9b71545104da2718c4b4c7976",
           "size": 894502
+        },
+        {
+          "version": "0.17.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-schematic-tools/releases/download/v0.17.0/schematic-tools-0.17.0.qdsmod",
+          "sha256": "19ec71d538058890b9076f25d9d44f6e8558f8d34e43e7344cb95d9270a16120",
+          "size": 5981
+        }
+      ]
+    },
+    {
+      "id": "snapshot-inspector",
+      "name": "Snapshot Inspector",
+      "description": "Inspect snapshot membership, navigate to controls, create linked control pages, and compare saved values without recalling snapshots.",
+      "repository": "joshua-small/qsys-snapshot-inspector",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-snapshot-inspector/releases/download/v0.1.0/snapshot-inspector-0.1.0.qdsmod",
+          "sha256": "762c53c6acc49d137a0c31b2bca1dd2d4a91a4bfee128e02aafb319419b24f01",
+          "size": 38595
         }
       ]
     }

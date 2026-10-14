@@ -13,13 +13,94 @@
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
+      "id": "better-packing",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-packing/d371e58368be3b83d03adcdb2ac84a997974e015/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-better-packing",
+      "releaseNotes": {
+        "0.1.0.0": "Better Packing\n\nPack schematic components and Layout items with exposed control-pin spacing, a saved gap, and optional replacement of native Pack commands.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "better-shortcuts",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-shortcuts/2264d3e2e0a7a7833d2909d952cb4d71153ecb2d/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-better-shortcuts",
+      "releaseNotes": {
+        "0.1.0.0": "Better Shortcuts\n\nCustomize shortcuts for mod commands and native Designer commands, including dark mode, sidebars, programmer mode, and component controls.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "color-palette-aligned",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-color-palette-aligned/be2c616abf512d439021aa7e5fb80110cb110f0e/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-color-palette-aligned",
+      "releaseNotes": {
+        "0.1.0.0": "Color Palette Aligned\n\nAlign the Designer color palette into consistent rows.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "component-controls-info-filter",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-controls-info-filter/837c03d77ef5d536a3b6189df04dc8a0c4192034/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-component-controls-info-filter",
+      "releaseNotes": {
+        "0.1.0.0": "Component Controls Info Filter\n\nFilter Component Controls Info by control name and type.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "icons-filter",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-icons-filter/37728f940be29adb8039917c9e0132a72b9f98fd/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-icons-filter",
+      "releaseNotes": {
+        "0.1.0.0": "Icons Filter\n\nSearch the Designer icon picker with text and aliases.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "mods-core",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-mods-core/55d1a83f5cb92bbbcfdeef6cf12435f7e5d860b3/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-mods-core",
+      "releaseNotes": {
+        "0.1.0.0": "Q-SYS Mods Core\n\nShared Preferences, command registration, host compatibility checks, and theme integration for Q-SYS Designer mods.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "named-signal-colors",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-named-signal-colors/298d881ee1ab5dacc53af6efc6a3b40b5ab08d73/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-named-signal-colors",
+      "releaseNotes": {
+        "0.1.0.0": "Named Signal Colors\n\nPreview and apply role-based colors to Named Signals, with a saved palette and an optional default-color filter.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
       "id": "schematic-tools",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-schematic-tools/6504f8bc8fd2dd040c91137c1c28026bc43740dd/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-schematic-tools/02d34f792c0f31f07dd7b62648af699e8690bc64/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-schematic-tools",
       "releaseNotes": {
         "0.15.0.0": "Packing, icon search, editor shortcuts, snapshot indicators, and snapshot value comparison for Q-SYS Designer 10.5. Restart Designer after installation. Open Edit \u2192 Schematic Tools to get started.",
-        "0.15.1.0": "Q-SYS Mod Manager now enables Schematic Tools by installing its module and disables it by removing that managed module. This version no longer needs a separate enable-marker file beside Designer. The exact Designer 10.5 build checks remain in place.\n\nUse the manager\u0027s previewed update to migrate from an older package and remove its managed legacy marker. Restart Designer after installation.\n\nThe catalog listing now uses the supplied Avitex artwork. Its description, image and release notes are owned and published by this repository."
+        "0.15.1.0": "Q-SYS Mod Manager now enables Schematic Tools by installing its module and disables it by removing that managed module. This version no longer needs a separate enable-marker file beside Designer. The exact Designer 10.5 build checks remain in place.\n\nUse the manager\u0027s previewed update to migrate from an older package and remove its managed legacy marker. Restart Designer after installation.\n\nThe catalog listing now uses the supplied Avitex artwork. Its description, image and release notes are owned and published by this repository.",
+        "0.17.0.0": "Schematic Tools\n\nOptional selection diagnostics for mod developers. Hidden unless /mods-dev or native development mode is already enabled.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "snapshot-inspector",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-snapshot-inspector/a53fde26055346f071e474afe3980dfbbf93a3b3/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-snapshot-inspector",
+      "releaseNotes": {
+        "0.1.0.0": "Snapshot Inspector\n\nInspect snapshot membership, navigate to controls, create linked control pages, and compare saved values without recalling snapshots.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     }
