@@ -54,8 +54,20 @@ The manager repository supplies the packer and publisher, pinned to a reviewed c
 dotnet run --project Pack/QdsModManager.Pack.csproj -- <id> <payload-directory> <new-output.qdsmod> <approvals.json> <catalog/mod.json>
 ```
 
-The packer selects the last approved schema-2 layout, hashes each file, checks the module metadata and validates the finished archive. It never includes an activation marker. If a mod needs a different layout, obtain approval before publishing it.
+The packer selects the last approved modern layout (schema 2 or 3), hashes each file, checks the module metadata and validates the finished archive. It never includes an activation marker. If a mod needs a different layout, obtain approval before publishing it.
 
 Package import remains available for separately supplied archives that match an approved identity and layout. Import verifies structure, all payload hashes, assembly identity, shared hashes and exact compatibility; it does not establish that the archive was published by its claimed author. Downloads from the catalog additionally verify the approved repository address, archive size and archive hash.
 
 The publisher compares the release record with the package and with the mod repository's immutable source files. Collection repeats these checks before appending the version to the signed feed. Historical package pins and receipts cannot be changed or removed by routine automation.
+
+## Versioned mod dependencies (Manager 0.8+)
+
+Schema 3 adds explicit `dependencies` and `conflicts` arrays to both the approved layout and package manifest. Each entry has an approved mod `id`, an inclusive `minimum` version, and an optional exclusive `before` version. For example, `{ "id": "mods-core", "minimum": "0.1.0", "before": "0.2.0" }` requires enabled Core 0.1.x. The package must reproduce the approved lists exactly; use `[]` for an empty list. Schema-1/2 packages cannot declare these fields.
+
+The manager validates the whole enabled profile, rejects cycles, and blocks disabling/removing required dependencies. Its install preview includes any resolved dependencies. Shared-file hash rules are unchanged. Core's runtime is privately owned as `Qmm.mods-core.Runtime.dll`; consumers do not ship duplicate runtime copies.
+
+Split mods conflict with Schematic Tools versions before 0.17. The optional 0.17 diagnostics mod is compatible and depends on Core. Use the manager's grouped migration to replace the legacy bundle while retaining exact historical pins and rollback data.
+
+Release Manager 0.8 before publishing these approvals: older managers deliberately reject unsupported schema-3 layouts. Update the catalog's pinned tool commit only to the reviewed manager implementation. Draft/source branches do not authorize stable release publication.
+
+Schema-3 layouts also require minimumVersion and may declare beforeVersion for the package itself. These ranges must not overlap for the same file set. Append a disjoint range to change dependencies in a later version while preserving earlier pins.

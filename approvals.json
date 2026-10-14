@@ -52,6 +52,26 @@
               "sha256": "407ddd98200c9f17f49942b5a7791e288a2bd553b59bf2f462db87dbb21c50bc"
             }
           ]
+        },
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.SelectionProbe.dll"
+            }
+          ],
+          "conflicts": [],
+          "minimumVersion": "0.17.0",
+          "beforeVersion": "0.18.0"
         }
       ]
     },
@@ -108,6 +128,295 @@
           ]
         }
       ]
+    },
+    {
+      "id": "mods-core",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.ModsCore.dll"
+            },
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Qmm.mods-core.Runtime.dll"
+            },
+            {
+              "sha256": "fd77b88724f4104440df0cf979a851d35eec75ea3a7e86297d04abe47c71aff6",
+              "shared": true,
+              "name": "0Harmony.dll"
+            },
+            {
+              "sha256": "407ddd98200c9f17f49942b5a7791e288a2bd553b59bf2f462db87dbb21c50bc",
+              "shared": true,
+              "name": "AutomaticGeometry.Harmony.LICENSE.txt"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-mods-core",
+      "name": "Q-SYS Mods Core",
+      "legacyMarker": null,
+      "module": "Designer.Modules.ModsCore.dll"
+    },
+    {
+      "id": "better-packing",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.BetterPacking.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-better-packing",
+      "name": "Better Packing",
+      "legacyMarker": null,
+      "module": "Designer.Modules.BetterPacking.dll"
+    },
+    {
+      "id": "named-signal-colors",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.NamedSignalColors.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-named-signal-colors",
+      "name": "Named Signal Colors",
+      "legacyMarker": null,
+      "module": "Designer.Modules.NamedSignalColors.dll"
+    },
+    {
+      "id": "snapshot-inspector",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.SnapshotInspector.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-snapshot-inspector",
+      "name": "Snapshot Inspector",
+      "legacyMarker": null,
+      "module": "Designer.Modules.SnapshotInspector.dll"
+    },
+    {
+      "id": "better-shortcuts",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.BetterShortcuts.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-better-shortcuts",
+      "name": "Better Shortcuts",
+      "legacyMarker": null,
+      "module": "Designer.Modules.BetterShortcuts.dll"
+    },
+    {
+      "id": "color-palette-aligned",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.ColorPaletteAligned.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-color-palette-aligned",
+      "name": "Color Palette Aligned",
+      "legacyMarker": null,
+      "module": "Designer.Modules.ColorPaletteAligned.dll"
+    },
+    {
+      "id": "icons-filter",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.IconsFilter.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-icons-filter",
+      "name": "Icons Filter",
+      "legacyMarker": null,
+      "module": "Designer.Modules.IconsFilter.dll"
+    },
+    {
+      "id": "component-controls-info-filter",
+      "layouts": [
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.0",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.ComponentControlsInfoFilter.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0"
+        }
+      ],
+      "repository": "joshua-small/qsys-component-controls-info-filter",
+      "name": "Component Controls Info Filter",
+      "legacyMarker": null,
+      "module": "Designer.Modules.ComponentControlsInfoFilter.dll"
     }
   ]
 }
