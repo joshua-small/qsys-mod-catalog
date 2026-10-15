@@ -34,6 +34,14 @@
       "recordSha256": "98e7413336a84a363eaee41035fd1528fb8aa60a1abb7e29c1b0cbd8a840e9ad"
     },
     {
+      "id": "command-palette",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-command-palette",
+      "commit": "166502b9c8d318237ff9d72957503b4e2fd7a44e",
+      "tag": "v0.1.0",
+      "recordSha256": "9ed93a8bbc52a79193c68b7c3ff95575288799369ef2d3cdc8067543657db8de"
+    },
+    {
       "id": "component-controls-info-filter",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-component-controls-info-filter",

@@ -43,6 +43,16 @@
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
+      "id": "command-palette",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-command-palette/166502b9c8d318237ff9d72957503b4e2fd7a44e/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-command-palette",
+      "releaseNotes": {
+        "0.1.0.0": "Command Palette 0.1.0\n\nOpen with Ctrl\u002BShift\u002BP or Tools \u003E Q-SYS Mods \u003E Command Palette.\nSearch native and registered mod commands by name, category, source, or shortcut.\nUse fuzzy abbreviations, arrow keys, Page Up/Down, Enter, Escape, or double-click.\nSee effective shortcuts, unavailable commands, and recent choices for this session.\nCommands execute after restoring and rechecking the original editor context.\n\nRequires Q-SYS Mods Core 0.1.4 and the exact supported Designer 10.5 build.\nMain-window entry only; floating windows and embedded browser keyboard handling\nare not accepted. Better Shortcuts is optional.\n\nInstall through Q-SYS Mod Manager 0.8 or newer after refreshing its signed catalog."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
       "id": "component-controls-info-filter",
       "author": "joshua-small",
       "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-controls-info-filter/837c03d77ef5d536a3b6189df04dc8a0c4192034/catalog/artwork/avitex.ico",

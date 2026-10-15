@@ -79,6 +79,23 @@
       ]
     },
     {
+      "id": "command-palette",
+      "name": "Command Palette",
+      "description": "Search and run Q-SYS Designer and mod commands with Ctrl\u002BShift\u002BP. Includes fuzzy search, current shortcuts, availability, keyboard navigation, and recent commands.",
+      "repository": "joshua-small/qsys-command-palette",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-command-palette/releases/download/v0.1.0/command-palette-0.1.0.qdsmod",
+          "sha256": "0a87a0faffe88afefa8aafecc98cbb3f972337b78672eae2d420c2f1be70f6c5",
+          "size": 16574
+        }
+      ]
+    },
+    {
       "id": "component-controls-info-filter",
       "name": "Component Controls Info Filter",
       "description": "Filter Component Controls Info by control name and type.",
