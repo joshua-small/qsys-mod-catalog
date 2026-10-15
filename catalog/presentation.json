@@ -65,10 +65,11 @@
     {
       "id": "mods-core",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-mods-core/55d1a83f5cb92bbbcfdeef6cf12435f7e5d860b3/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-mods-core/23336c5a822f2b1e4b7b105ab6f8dd51746c2c05/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-mods-core",
       "releaseNotes": {
-        "0.1.0.0": "Q-SYS Mods Core\n\nShared Preferences, command registration, host compatibility checks, and theme integration for Q-SYS Designer mods.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+        "0.1.0.0": "Q-SYS Mods Core\n\nShared Preferences, command registration, host compatibility checks, and theme integration for Q-SYS Designer mods.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
+        "0.1.5.0": "Q-SYS Mods Core 0.1.5\n\nCore now owns native and mod command bindings, configurable two-stroke chords,\ncontext guards, and effective shortcut labels without requiring Better Shortcuts.\nExisting native keys and saved assignments take precedence over conflicting mod\ndefaults. Competing defaults remain unassigned, and intentional overwrite uses\nthe shared review/apply flow.\n\nIncludes grouped native-command replacements, retired-command alias migration,\nand a live settings.json interface for supported Q-SYS General preferences and\nmod settings. Changes are validated, conflicts remain visible, and last-good\nrecovery data is preserved. Unsupported or unknown settings are not silently\ntreated as writable native preferences.\n\nThe merged source passed automated contracts and the scoped Designer 10.5\nacceptance documented in docs/SETTINGS-JSON.md and docs/MOD-CONTROLS.md. Physical\nfloating-window and recorder acceptance retains its documented limits.\n\nRequires the exact supported Designer 10.5 binaries and Q-SYS Mod Manager 0.8\u002B.\nUpdate old Better Packing/Better Shortcuts builds to 0.1.1 or newer when used\ntogether. Existing mod preferences and user assignments are retained."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
