@@ -82,6 +82,14 @@
       "recordSha256": "d2c4279702ad66fef403d62351c776cbe04d0b890d0f4e33d7afe765cfc24318"
     },
     {
+      "id": "named-signal-colors",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-named-signal-colors",
+      "commit": "1f652744643a06c2116b7dea2e6f22c90658b2fa",
+      "tag": "v0.1.1",
+      "recordSha256": "25d987e4d6be0075c54e7199d3ab8d05a5463e9760206a888069a7b728907b6b"
+    },
+    {
       "id": "schematic-tools",
       "version": "0.15.1.0",
       "repository": "joshua-small/qsys-schematic-tools",

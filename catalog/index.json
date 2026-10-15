@@ -169,6 +169,15 @@
           "url": "https://github.com/joshua-small/qsys-named-signal-colors/releases/download/v0.1.0/named-signal-colors-0.1.0.qdsmod",
           "sha256": "7d5fcc12ec02e7c737bb8922a7b1a79a23194c563b3104a1521af47fd78398e7",
           "size": 31599
+        },
+        {
+          "version": "0.1.1.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-named-signal-colors/releases/download/v0.1.1/named-signal-colors-0.1.1.qdsmod",
+          "sha256": "7fd909ecc4009c9b15ccd6b81bb71600a491ea08d44e0643c5753a548e1c46f7",
+          "size": 31899
         }
       ]
     },

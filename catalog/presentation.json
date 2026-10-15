@@ -86,10 +86,11 @@
     {
       "id": "named-signal-colors",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-named-signal-colors/298d881ee1ab5dacc53af6efc6a3b40b5ab08d73/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-named-signal-colors/1f652744643a06c2116b7dea2e6f22c90658b2fa/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-named-signal-colors",
       "releaseNotes": {
-        "0.1.0.0": "Named Signal Colors\n\nPreview and apply role-based colors to Named Signals, with a saved palette and an optional default-color filter.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+        "0.1.0.0": "Named Signal Colors\n\nPreview and apply role-based colors to Named Signals, with a saved palette and an optional default-color filter.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
+        "0.1.1.0": "Named Signal Colors 0.1.1\n\nPalette preferences now use the same color picker as Q-SYS Designer 10.5\u0027s signal-trace preferences, with a swatch, popup picker and exact color entry. Scroll to reach all 24 roles.\n\nExisting opaque RGB palettes are preserved. OK saves the changes and refreshes an existing preview; Cancel discards the edits. Signal colors still change only when you explicitly apply a preview.\n\nRequires the approved Designer 10.5 build, Q-SYS Mods Core 0.1.x and Q-SYS Mod Manager 0.8 or later. Close Designer before installing the update, then reopen it."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
