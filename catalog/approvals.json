@@ -435,5 +435,22 @@
         }
       ]
     }
+    ,{
+      "id": "clipboard-compat",
+      "name": "Clipboard Compatibility",
+      "repository": "joshua-small/qsys-clipboard-compat",
+      "module": "Designer.Modules.ClipboardCompat.dll",
+      "legacyMarker": null,
+      "layouts": [
+        {
+          "schema": 3,
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0",
+          "files": [{ "name": "Designer.Modules.ClipboardCompat.dll", "shared": false, "sha256": null }],
+          "dependencies": [{ "id": "mods-core", "minimum": "0.1.5", "before": "0.2.0" }],
+          "conflicts": []
+        }
+      ]
+    }
   ]
 }
