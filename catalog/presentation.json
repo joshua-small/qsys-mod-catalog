@@ -33,6 +33,16 @@
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
+      "id": "clipboard-compat",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-clipboard-compat/e4be3d91e932a3e435e5d72090ddd1e51d84ce6b/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-clipboard-compat",
+      "releaseNotes": {
+        "0.1.0.0": "Clipboard Compatibility 0.1.0\n\nRestores native component Copy All/Paste All using a bounded JSON clipboard transport on the exact inspected Designer 10.5.0 build. Requires Mods Core 0.1.5; Better Shortcuts is optional. Adds no shortcuts or preferences and preserves custom bindings.\n\nValidated with 21 payload checks, 14 native transport/Harmony checks, and two Gains in disposable Designer Emulate using native commands and actual mouse input. Other component types and physical Core behavior remain untested.\n\nThis temporary compatibility mod is intended to be deprecated after QSC provides a verified native fix. Disable or remove it in Mod Manager with Designer closed, then restart and copy again. Historical package pins will be retained. Clipboard interoperability requires this mod in both participating Designer processes."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
       "id": "color-palette-aligned",
       "author": "joshua-small",
       "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-color-palette-aligned/be2c616abf512d439021aa7e5fb80110cb110f0e/catalog/artwork/avitex.ico",

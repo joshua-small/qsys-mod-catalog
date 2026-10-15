@@ -62,6 +62,23 @@
       ]
     },
     {
+      "id": "clipboard-compat",
+      "name": "Clipboard Compatibility",
+      "description": "Temporary repair for native Copy All from Component / Paste All to Component in the inspected Q-SYS Designer 10.5.0 build. Preserves native commands and custom bindings; requires Mods Core 0.1.5. Validated with two Gains in Emulate. Disable and retire this mod after QSC supplies a verified native fix.",
+      "repository": "joshua-small/qsys-clipboard-compat",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-clipboard-compat/releases/download/v0.1.0/clipboard-compat-0.1.0.qdsmod",
+          "sha256": "a474df87d02f3af5af640b062f525900a792227723c5f9682bcc35b2286717be",
+          "size": 11138
+        }
+      ]
+    },
+    {
       "id": "color-palette-aligned",
       "name": "Color Palette Aligned",
       "description": "Align the Designer color palette into consistent rows.",

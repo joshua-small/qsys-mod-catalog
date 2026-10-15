@@ -26,6 +26,14 @@
       "recordSha256": "25fd399f75f007d4965e21874a6c7406aa566f43d0a77d6586c7d09183fa57f8"
     },
     {
+      "id": "clipboard-compat",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-clipboard-compat",
+      "commit": "e4be3d91e932a3e435e5d72090ddd1e51d84ce6b",
+      "tag": "v0.1.0",
+      "recordSha256": "b62756cbc8682e0b77e16776236bc31ca9ea2bd4b1d9cf544014fc580fb5f8c7"
+    },
+    {
       "id": "color-palette-aligned",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-color-palette-aligned",
