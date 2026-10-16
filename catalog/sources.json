@@ -34,6 +34,14 @@
       "recordSha256": "bec4e7755f2cc576bf356d314e0e6295672210825d688ce6449a0af15239cc3c"
     },
     {
+      "id": "better-packing",
+      "version": "0.2.2.0",
+      "repository": "joshua-small/qsys-better-packing",
+      "commit": "037628be7665c9a4fa6ff303ffcaafacc5c0894c",
+      "tag": "v0.2.2",
+      "recordSha256": "aa53c03c719c1af4c92e81be71eb1cded36056aa192a103676730d4ee40bd76b"
+    },
+    {
       "id": "better-probes-injectors",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-better-probes-injectors",
@@ -120,6 +128,14 @@
       "commit": "63aa418b8872126be09a0896f25ba260fa30f457",
       "tag": "v0.1.6",
       "recordSha256": "22eb41145871ce19d3c2e39de000bbb6c780a9713d95482488e7bd8fec507be0"
+    },
+    {
+      "id": "mods-core",
+      "version": "0.1.7.0",
+      "repository": "joshua-small/qsys-mods-core",
+      "commit": "1d8d8e7f4f056a175b5c6195cf8a0aed9f1c85c7",
+      "tag": "v0.1.7",
+      "recordSha256": "a2ffb9b64833e5649fdf2515b96aa542d897d571ce3a303f663244f2a3ebda25"
     },
     {
       "id": "named-signal-colors",
