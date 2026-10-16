@@ -41,6 +41,15 @@
           "url": "https://github.com/joshua-small/qsys-better-packing/releases/download/v0.1.0/better-packing-0.1.0.qdsmod",
           "sha256": "872272db3e14e41f088b66136ba9e8de32ed34349a8761c2c0493d05329cdf82",
           "size": 18705
+        },
+        {
+          "version": "0.2.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-packing/releases/download/v0.2.0/better-packing-0.2.0.qdsmod",
+          "sha256": "948e5f588242808b04856ffabde7e4c97f6d0ceb2d00a12e88de0db0c1129145",
+          "size": 18848
         }
       ]
     },
@@ -58,6 +67,15 @@
           "url": "https://github.com/joshua-small/qsys-better-shortcuts/releases/download/v0.1.0/better-shortcuts-0.1.0.qdsmod",
           "sha256": "4852f26329336e090a07c6ac456187036430cf0c05e4b815c9d5023c90c138e9",
           "size": 16717
+        },
+        {
+          "version": "0.2.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-shortcuts/releases/download/v0.2.0/better-shortcuts-0.2.0.qdsmod",
+          "sha256": "379757804ac8ee94c328a0f976079fa04c09399fa5ba0a09d04923cfdb07e503",
+          "size": 49319
         }
       ]
     },
@@ -169,6 +187,15 @@
           "url": "https://github.com/joshua-small/qsys-mods-core/releases/download/v0.1.5/mods-core-0.1.5.qdsmod",
           "sha256": "7aa977eef7fe98b26f0ed2061ebf3930cc29b6bb586b1319decfb13d793ec7ae",
           "size": 889530
+        },
+        {
+          "version": "0.1.6.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-mods-core/releases/download/v0.1.6/mods-core-0.1.6.qdsmod",
+          "sha256": "357253c16e3518686a4eb9022b7343f3fc0e7f4a2b5ddb497e22acb5e23fb15b",
+          "size": 890758
         }
       ]
     },
