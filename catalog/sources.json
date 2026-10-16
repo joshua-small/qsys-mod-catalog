@@ -42,6 +42,14 @@
       "recordSha256": "aa53c03c719c1af4c92e81be71eb1cded36056aa192a103676730d4ee40bd76b"
     },
     {
+      "id": "better-packing",
+      "version": "0.3.0.0",
+      "repository": "joshua-small/qsys-better-packing",
+      "commit": "6d57add90ee56553017ce13baaa4b7458c278d42",
+      "tag": "v0.3.0",
+      "recordSha256": "32c2f9a4c39e2e47c12ae6afca79b725d246d76a4c9fbc2dae438147e040d498"
+    },
+    {
       "id": "better-probes-injectors",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-better-probes-injectors",

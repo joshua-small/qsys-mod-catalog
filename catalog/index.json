@@ -68,6 +68,15 @@
           "url": "https://github.com/joshua-small/qsys-better-packing/releases/download/v0.2.2/better-packing-0.2.2.qdsmod",
           "sha256": "c8fb89af2cea9e86da1c7c4ff496f7f63101f729cf5aefaad4ed19eb0ee13eb1",
           "size": 27928
+        },
+        {
+          "version": "0.3.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-packing/releases/download/v0.3.0/better-packing-0.3.0.qdsmod",
+          "sha256": "d4f0ee1f1986ebec2f5366299fde52b66d70271969907b8ccd4f4f63f1f4ea46",
+          "size": 28651
         }
       ]
     },
