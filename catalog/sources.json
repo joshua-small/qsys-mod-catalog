@@ -90,6 +90,22 @@
       "recordSha256": "9ed93a8bbc52a79193c68b7c3ff95575288799369ef2d3cdc8067543657db8de"
     },
     {
+      "id": "compact-connectors",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-compact-connectors",
+      "commit": "1345324471a1e594b1bcbf03bcd852fe98a95083",
+      "tag": "v0.1.0",
+      "recordSha256": "fa98e5525004edba8e496fbf0fe147d6afed61e67b2d4fdba42339d8f54963ea"
+    },
+    {
+      "id": "component-auto-width",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-component-auto-width",
+      "commit": "c6451c5d5872bdfc4ced514494b3d3d6bdc46258",
+      "tag": "v0.1.0",
+      "recordSha256": "288249ec01366f8e746e5b0cd941b1ebbfffbd2aad4e8713c68bb6739b9a16a7"
+    },
+    {
       "id": "component-controls-info-filter",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-component-controls-info-filter",

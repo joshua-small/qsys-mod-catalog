@@ -77,6 +77,26 @@
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
+      "id": "compact-connectors",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-compact-connectors/1345324471a1e594b1bcbf03bcd852fe98a95083/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-compact-connectors",
+      "releaseNotes": {
+        "0.1.0.0": "Compact 10-unit Container and Channel Group connectors with centered labels, native pin snapping and open-drawer component body snap targets. Independent of Component Auto Width.\nRequires Mods Core 0.1.7 or later within 0.1.x. Replace legacy Automatic Geometry as a grouped Mod Manager profile change; historical packages remain available for rollback. Initialization details are in Preferences \u003E Mod Diagnostics.\nNative Designer checks cover nested Container/Channel Group pin alignment, main/exposed pins, grouped undo/redo, registered commands, and snap-target registration. Physical drag/key input and connected-wire coverage remain limited; no DSP/hardware claim."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
+      "id": "component-auto-width",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-auto-width/c6451c5d5872bdfc4ced514494b3d3d6bdc46258/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-component-auto-width",
+      "releaseNotes": {
+        "0.1.0.0": "Automatically fit component widths to exposed control-pin labels without changing their text. Independent successor to the width feature in Automatic Geometry.\nRequires Mods Core 0.1.7 or later within 0.1.x. Replace legacy Automatic Geometry as a grouped Mod Manager profile change; historical packages remain available for rollback. Initialization details are in Preferences \u003E Mod Diagnostics.\nNative Designer checks cover nested Container/Channel Group pin alignment, main/exposed pins, grouped undo/redo, registered commands, and snap-target registration. Physical drag/key input and connected-wire coverage remain limited; no DSP/hardware claim."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
       "id": "component-controls-info-filter",
       "author": "joshua-small",
       "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-controls-info-filter/837c03d77ef5d536a3b6189df04dc8a0c4192034/catalog/artwork/avitex.ico",

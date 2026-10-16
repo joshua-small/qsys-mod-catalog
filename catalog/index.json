@@ -166,6 +166,40 @@
       ]
     },
     {
+      "id": "compact-connectors",
+      "name": "Compact Connectors",
+      "description": "Compact 10-unit Container and Channel Group connectors with centered labels, native pin snapping and open-drawer component body snap targets. Independent of Component Auto Width.",
+      "repository": "joshua-small/qsys-compact-connectors",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-compact-connectors/releases/download/v0.1.0/compact-connectors-0.1.0.qdsmod",
+          "sha256": "e76d7df4f967caa377c1f99ec25a8ab7cf7a102e1ee379315fb48e353f6f596a",
+          "size": 11003
+        }
+      ]
+    },
+    {
+      "id": "component-auto-width",
+      "name": "Component Auto Width",
+      "description": "Automatically fit component widths to exposed control-pin labels without changing their text. Independent successor to the width feature in Automatic Geometry.",
+      "repository": "joshua-small/qsys-component-auto-width",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-component-auto-width/releases/download/v0.1.0/component-auto-width-0.1.0.qdsmod",
+          "sha256": "bbf9611657805ce8fc41a2d38f0bc309c26bd05cd89a9ce35fc01bb9db85d2ab",
+          "size": 9128
+        }
+      ]
+    },
+    {
       "id": "component-controls-info-filter",
       "name": "Component Controls Info Filter",
       "description": "Filter Component Controls Info by control name and type.",
