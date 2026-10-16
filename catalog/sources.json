@@ -34,6 +34,14 @@
       "recordSha256": "bec4e7755f2cc576bf356d314e0e6295672210825d688ce6449a0af15239cc3c"
     },
     {
+      "id": "better-probes-injectors",
+      "version": "0.1.0.0",
+      "repository": "joshua-small/qsys-better-probes-injectors",
+      "commit": "4f8df6cfe871f90e8380072793e069c8533099d7",
+      "tag": "v0.1.0",
+      "recordSha256": "19ad44a9ecdc249219ef40aea5e00063e9e24d61ccc49e7f5ecbbb34940471a5"
+    },
+    {
       "id": "better-shortcuts",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-better-shortcuts",

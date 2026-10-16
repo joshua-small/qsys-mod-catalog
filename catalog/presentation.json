@@ -25,6 +25,16 @@
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
+      "id": "better-probes-injectors",
+      "author": "joshua-small",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-probes-injectors/4f8df6cfe871f90e8380072793e069c8533099d7/catalog/artwork/avitex.ico",
+      "helpUrl": "https://github.com/joshua-small/qsys-better-probes-injectors",
+      "releaseNotes": {
+        "0.1.0.0": "Adds attached-tip and home-component destinations to Designer\u0027s native Find by Context.\n\nSeven commands provide separate next/previous probe and injector cycling, focused-tip navigation, home-component navigation and return home. Assign keys in Better Shortcuts; no default keys or existing assignments are changed.\n\nDesigner 10.5 Emulate checks verified native Find destinations and actual tip highlighting, physical shortcut cycling and wraparound, Find Home without detaching, and returning one focused tool while preserving the other attachment and gain/mute settings. Fixes cover unwired injector inputs and native tip highlight geometry.\n\nRequires the exact supported Designer 10.5.0 build and Mods Core \u003E=0.1.6 and \u003C0.2.0. The package contains one private DLL. Release build: zero warnings/errors; 65 portable behavior checks and 73 host metadata checks passed. Live Core/hardware, nested/closed-page destinations, floating command dispatch, Command Palette execution and Undo remain outside this acceptance scope. See docs/VALIDATION.md."
+      },
+      "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
+    },
+    {
       "id": "better-shortcuts",
       "author": "joshua-small",
       "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-shortcuts/bd6418d53ec03bb2e2d94bd8920660926340003e/catalog/artwork/avitex.ico",

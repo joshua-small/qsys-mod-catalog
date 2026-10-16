@@ -63,6 +63,23 @@
       ]
     },
     {
+      "id": "better-probes-injectors",
+      "name": "Better Probes \u0026 Injectors",
+      "description": "Find deployed Signal Probes and Injectors through native Find by Context, cycle each tool type, and return the focused tool home.",
+      "repository": "joshua-small/qsys-better-probes-injectors",
+      "releases": [
+        {
+          "version": "0.1.0.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-probes-injectors/releases/download/v0.1.0/better-probes-injectors-0.1.0.qdsmod",
+          "sha256": "f727eca4b2273a38647fb80ffd5b4b5ceb62b6e5951925b453a831f1a5c7cc5c",
+          "size": 24997
+        }
+      ]
+    },
+    {
       "id": "better-shortcuts",
       "name": "Better Shortcuts",
       "description": "Customize shortcuts for mod commands and native Designer commands, including dark mode, sidebars, programmer mode, and component controls.",
