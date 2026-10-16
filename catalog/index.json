@@ -30,7 +30,7 @@
     {
       "id": "better-packing",
       "name": "Better Packing",
-      "description": "Pack schematic components and Layout items with exposed control-pin spacing, a saved gap, and optional replacement of native Pack commands.",
+      "description": "Pack schematic and UCI elements with a saved gap, exposed control-pin spacing, and native or Better Packing choices by element type and editor.",
       "repository": "joshua-small/qsys-better-packing",
       "releases": [
         {
@@ -50,6 +50,15 @@
           "url": "https://github.com/joshua-small/qsys-better-packing/releases/download/v0.2.0/better-packing-0.2.0.qdsmod",
           "sha256": "948e5f588242808b04856ffabde7e4c97f6d0ceb2d00a12e88de0db0c1129145",
           "size": 18848
+        },
+        {
+          "version": "0.2.1.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-packing/releases/download/v0.2.1/better-packing-0.2.1.qdsmod",
+          "sha256": "5f38ea15f314a2942f718bd8e611b26406dcab7a00035481982f39f224cb69e1",
+          "size": 24018
         }
       ]
     },

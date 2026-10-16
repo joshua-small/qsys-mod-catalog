@@ -26,6 +26,14 @@
       "recordSha256": "0f1bb4c0fd63fdd8013d0ffaa271ca9c9deca9846e69635c0c6121cd25eb0a45"
     },
     {
+      "id": "better-packing",
+      "version": "0.2.1.0",
+      "repository": "joshua-small/qsys-better-packing",
+      "commit": "865badb9e62f3b72ef7c0589cc3479b2f27e7de0",
+      "tag": "v0.2.1",
+      "recordSha256": "bec4e7755f2cc576bf356d314e0e6295672210825d688ce6449a0af15239cc3c"
+    },
+    {
       "id": "better-shortcuts",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-better-shortcuts",
