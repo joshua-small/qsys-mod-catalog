@@ -106,6 +106,14 @@
       "recordSha256": "fa98e5525004edba8e496fbf0fe147d6afed61e67b2d4fdba42339d8f54963ea"
     },
     {
+      "id": "compact-connectors",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-compact-connectors",
+      "commit": "87b021033b1a9383d909511fd5be3928f4b8e697",
+      "tag": "v0.1.1",
+      "recordSha256": "2cfb40ca05a501c897ce62a300b14f8adf7c9fa3126fa52466ca045ed38595ce"
+    },
+    {
       "id": "component-auto-width",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-component-auto-width",
@@ -160,6 +168,14 @@
       "commit": "1d8d8e7f4f056a175b5c6195cf8a0aed9f1c85c7",
       "tag": "v0.1.7",
       "recordSha256": "a2ffb9b64833e5649fdf2515b96aa542d897d571ce3a303f663244f2a3ebda25"
+    },
+    {
+      "id": "mods-core",
+      "version": "0.1.8.0",
+      "repository": "joshua-small/qsys-mods-core",
+      "commit": "49a27769ea9358949541681a3dc326ddecfb9905",
+      "tag": "v0.1.8",
+      "recordSha256": "b52c0628c90d9d60f6747f8a91770ecfc7c3ab0ccdd3b5a1daeb1ffdcf50c4cd"
     },
     {
       "id": "named-signal-colors",

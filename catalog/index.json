@@ -188,6 +188,15 @@
           "url": "https://github.com/joshua-small/qsys-compact-connectors/releases/download/v0.1.0/compact-connectors-0.1.0.qdsmod",
           "sha256": "e76d7df4f967caa377c1f99ec25a8ab7cf7a102e1ee379315fb48e353f6f596a",
           "size": 11003
+        },
+        {
+          "version": "0.1.1.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-compact-connectors/releases/download/v0.1.1/compact-connectors-0.1.1.qdsmod",
+          "sha256": "de83f0891e12237ba8704cc47eb216b4b7e9e0f83db6a62302ed81cdf073d3bc",
+          "size": 14366
         }
       ]
     },
@@ -283,6 +292,15 @@
           "url": "https://github.com/joshua-small/qsys-mods-core/releases/download/v0.1.7/mods-core-0.1.7.qdsmod",
           "sha256": "565c8059faa9d2f75930732a39ac5dc60c9ae648b7526c731997a148c4e07c03",
           "size": 892474
+        },
+        {
+          "version": "0.1.8.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-mods-core/releases/download/v0.1.8/mods-core-0.1.8.qdsmod",
+          "sha256": "fc16d9b681047e0eab9076bf19ac07596f156bd1ed07dd82791395c6507b0d22",
+          "size": 894022
         }
       ]
     },
