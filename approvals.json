@@ -520,6 +520,84 @@
           "conflicts": []
         }
       ]
+    },
+    {
+      "id": "component-auto-width",
+      "name": "Component Auto Width",
+      "repository": "joshua-small/qsys-component-auto-width",
+      "module": "Designer.Modules.ComponentAutoWidth.dll",
+      "legacyMarker": null,
+      "layouts": [
+        {
+          "schema": 3,
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0",
+          "files": [
+            {
+              "name": "Designer.Modules.ComponentAutoWidth.dll",
+              "shared": false,
+              "sha256": null
+            }
+          ],
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.7",
+              "before": "0.2.0"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "automatic-geometry",
+              "minimum": "0.0.0"
+            },
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compact-connectors",
+      "name": "Compact Connectors",
+      "repository": "joshua-small/qsys-compact-connectors",
+      "module": "Designer.Modules.CompactConnectors.dll",
+      "legacyMarker": null,
+      "layouts": [
+        {
+          "schema": 3,
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0",
+          "files": [
+            {
+              "name": "Designer.Modules.CompactConnectors.dll",
+              "shared": false,
+              "sha256": null
+            }
+          ],
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.7",
+              "before": "0.2.0"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "automatic-geometry",
+              "minimum": "0.0.0"
+            },
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
