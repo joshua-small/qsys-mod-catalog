@@ -486,8 +486,8 @@
           "conflicts": [{ "id": "schematic-tools", "minimum": "0.0.0", "before": "0.17.0" }]
         }
       ]
-    }
-    ,{
+    },
+    {
       "id": "clipboard-compat",
       "name": "Clipboard Compatibility",
       "repository": "joshua-small/qsys-clipboard-compat",
@@ -500,6 +500,23 @@
           "beforeVersion": "0.2.0",
           "files": [{ "name": "Designer.Modules.ClipboardCompat.dll", "shared": false, "sha256": null }],
           "dependencies": [{ "id": "mods-core", "minimum": "0.1.5", "before": "0.2.0" }],
+          "conflicts": []
+        }
+      ]
+    },
+    {
+      "id": "better-probes-injectors",
+      "name": "Better Probes & Injectors",
+      "repository": "joshua-small/qsys-better-probes-injectors",
+      "module": "Designer.Modules.BetterProbesInjectors.dll",
+      "legacyMarker": null,
+      "layouts": [
+        {
+          "schema": 3,
+          "minimumVersion": "0.1.0",
+          "beforeVersion": "0.2.0",
+          "files": [{ "name": "Designer.Modules.BetterProbesInjectors.dll", "shared": false, "sha256": null }],
+          "dependencies": [{ "id": "mods-core", "minimum": "0.1.6", "before": "0.2.0" }],
           "conflicts": []
         }
       ]
