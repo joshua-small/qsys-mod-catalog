@@ -10,6 +10,14 @@
       "recordSha256": "f6c881f8b367c1554341125bfeae41675e65dcc19c7f0f37949da00c3e96289a"
     },
     {
+      "id": "automatic-geometry",
+      "version": "0.1.3.0",
+      "repository": "joshua-small/qsys-automatic-geometry",
+      "commit": "0569650c03e7df6d80ff2d566048c0e3bf08d1d4",
+      "tag": "v0.1.3",
+      "recordSha256": "09249e07d2653194448a06a3dc5b949c2b9b8bb9b9988be8b635d394e8a30f26"
+    },
+    {
       "id": "better-packing",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-better-packing",
@@ -50,6 +58,14 @@
       "recordSha256": "32c2f9a4c39e2e47c12ae6afca79b725d246d76a4c9fbc2dae438147e040d498"
     },
     {
+      "id": "better-packing",
+      "version": "0.3.1.0",
+      "repository": "joshua-small/qsys-better-packing",
+      "commit": "16ddeb2da17065da6e047467bb460b157269d9cf",
+      "tag": "v0.3.1",
+      "recordSha256": "9b890db319a00f0726487163b0dd40f7a41c3a5364174726e93ca72dfb8002da"
+    },
+    {
       "id": "better-probes-injectors",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-better-probes-injectors",
@@ -64,6 +80,14 @@
       "commit": "a76a22fa7c417ed4215779a0b5fd2935aec813b5",
       "tag": "v0.1.1",
       "recordSha256": "52c58c4889ae0af91333de35c3916abd3c828fa3eb2bb888a63daf592a7d2c6e"
+    },
+    {
+      "id": "better-probes-injectors",
+      "version": "0.1.2.0",
+      "repository": "joshua-small/qsys-better-probes-injectors",
+      "commit": "f056305ce3ec4177073d0f43dee56fae3538e210",
+      "tag": "v0.1.2",
+      "recordSha256": "3edc3f09f0e021dfa8e0819df0740c86f4ff5b13a39316a8488ce8331ff5c34b"
     },
     {
       "id": "better-shortcuts",
@@ -82,12 +106,28 @@
       "recordSha256": "cd4d4cfa4e8ec6012ab2f5e6d9e62e277f02515b69bf1009dd03b636e8448950"
     },
     {
+      "id": "better-shortcuts",
+      "version": "0.2.1.0",
+      "repository": "joshua-small/qsys-better-shortcuts",
+      "commit": "879b8076f249a7f783d27367e1342af3254fd641",
+      "tag": "v0.2.1",
+      "recordSha256": "ae4c11372b83dde7da15980326ea54a2cfe9d85c337be64791f209e1451aa020"
+    },
+    {
       "id": "clipboard-compat",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-clipboard-compat",
       "commit": "e4be3d91e932a3e435e5d72090ddd1e51d84ce6b",
       "tag": "v0.1.0",
       "recordSha256": "b62756cbc8682e0b77e16776236bc31ca9ea2bd4b1d9cf544014fc580fb5f8c7"
+    },
+    {
+      "id": "clipboard-compat",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-clipboard-compat",
+      "commit": "df3dabdd26162543baba11c7f1dbcc6794e8cd1c",
+      "tag": "v0.1.1",
+      "recordSha256": "825781df1544722b5f36639857c1c299f14d6bdd40ee5a5c871e4ae3f1651675"
     },
     {
       "id": "color-palette-aligned",
@@ -98,12 +138,28 @@
       "recordSha256": "98e7413336a84a363eaee41035fd1528fb8aa60a1abb7e29c1b0cbd8a840e9ad"
     },
     {
+      "id": "color-palette-aligned",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-color-palette-aligned",
+      "commit": "a44820cfa645047ba8970a53202919f2e4691862",
+      "tag": "v0.1.1",
+      "recordSha256": "9e563ccb458efe55db755089c6b4c3fd4a7c188e31b64c94dd81b06af62dbde8"
+    },
+    {
       "id": "command-palette",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-command-palette",
       "commit": "166502b9c8d318237ff9d72957503b4e2fd7a44e",
       "tag": "v0.1.0",
       "recordSha256": "9ed93a8bbc52a79193c68b7c3ff95575288799369ef2d3cdc8067543657db8de"
+    },
+    {
+      "id": "command-palette",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-command-palette",
+      "commit": "92f7d43258fb6f0a42c54d3a15e3a7526a637be4",
+      "tag": "v0.1.1",
+      "recordSha256": "cc95a1a6847ed8899a48b919389d439cc53956aabc5322e53a19bc20d9a8b28f"
     },
     {
       "id": "compact-connectors",
@@ -122,12 +178,28 @@
       "recordSha256": "2cfb40ca05a501c897ce62a300b14f8adf7c9fa3126fa52466ca045ed38595ce"
     },
     {
+      "id": "compact-connectors",
+      "version": "0.1.2.0",
+      "repository": "joshua-small/qsys-compact-connectors",
+      "commit": "9e5fe77d8d8b3b3124edf5ffc10b632ed81753a4",
+      "tag": "v0.1.2",
+      "recordSha256": "9b4424b378b259d8c81fc0416395ac0eced431bdd12f1cf115b697a0ce40e216"
+    },
+    {
       "id": "component-auto-width",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-component-auto-width",
       "commit": "c6451c5d5872bdfc4ced514494b3d3d6bdc46258",
       "tag": "v0.1.0",
       "recordSha256": "288249ec01366f8e746e5b0cd941b1ebbfffbd2aad4e8713c68bb6739b9a16a7"
+    },
+    {
+      "id": "component-auto-width",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-component-auto-width",
+      "commit": "18aeea75136703efa302c01d74b034678a0b076b",
+      "tag": "v0.1.1",
+      "recordSha256": "a374a062be4f723330025c6792d44fbff315f450243d64365ddbe4a9adc0ebf3"
     },
     {
       "id": "component-controls-info-filter",
@@ -138,12 +210,28 @@
       "recordSha256": "922eeee110e69b4fd9fc0917690abba0a16fe675a151edb1618f2620c6687c08"
     },
     {
+      "id": "component-controls-info-filter",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-component-controls-info-filter",
+      "commit": "0b694c0b9030295663de6a34145ba691464b68d8",
+      "tag": "v0.1.1",
+      "recordSha256": "3dfb8ffbe2dd00c3b8b83acd42e57cf0b83d6df15c4d47f624ceb868507e9f45"
+    },
+    {
       "id": "icons-filter",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-icons-filter",
       "commit": "37728f940be29adb8039917c9e0132a72b9f98fd",
       "tag": "v0.1.0",
       "recordSha256": "fd3d166f0daffda917669f936f965e57b321c02ac5aa671f2bb89a010ed5bbd5"
+    },
+    {
+      "id": "icons-filter",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-icons-filter",
+      "commit": "d22da081d295be5277c83447c3e39ec672164f5e",
+      "tag": "v0.1.1",
+      "recordSha256": "01460e966fbc6975cf3e0ad1050e9115e19af78118c62bf540e239a2ed02c077"
     },
     {
       "id": "mods-core",
@@ -186,6 +274,14 @@
       "recordSha256": "b52c0628c90d9d60f6747f8a91770ecfc7c3ab0ccdd3b5a1daeb1ffdcf50c4cd"
     },
     {
+      "id": "mods-core",
+      "version": "0.1.9.0",
+      "repository": "joshua-small/qsys-mods-core",
+      "commit": "85d7ef33bc91240a738213dd7ad096d82914f50d",
+      "tag": "v0.1.9",
+      "recordSha256": "d23265dd6ba6c6cfce1bf1f36ebcd077aadb76556da2e7da461198d4c5e049bf"
+    },
+    {
       "id": "named-signal-colors",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-named-signal-colors",
@@ -200,6 +296,14 @@
       "commit": "1f652744643a06c2116b7dea2e6f22c90658b2fa",
       "tag": "v0.1.1",
       "recordSha256": "25d987e4d6be0075c54e7199d3ab8d05a5463e9760206a888069a7b728907b6b"
+    },
+    {
+      "id": "named-signal-colors",
+      "version": "0.1.2.0",
+      "repository": "joshua-small/qsys-named-signal-colors",
+      "commit": "04133bfcb2f3cb6396205249b5ad93fdfa8d9034",
+      "tag": "v0.1.2",
+      "recordSha256": "31dbb5a7148a1ff02395af7ea2d8f68a25b2acae3c19d774fec24f86a26c817f"
     },
     {
       "id": "schematic-tools",
@@ -218,12 +322,28 @@
       "recordSha256": "bf4cb6285770e16fbadb3caf74fb218d74c184925e0caf79f13df6e40fa2d612"
     },
     {
+      "id": "schematic-tools",
+      "version": "0.17.1.0",
+      "repository": "joshua-small/qsys-schematic-tools",
+      "commit": "ae2b4f9a070dcccb94a88d9a680359f0b3844372",
+      "tag": "v0.17.1",
+      "recordSha256": "28482b0946dff4ed740acd42ec32963ce6ec751680b53344ea1bfb3436c1139a"
+    },
+    {
       "id": "snapshot-inspector",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-snapshot-inspector",
       "commit": "a53fde26055346f071e474afe3980dfbbf93a3b3",
       "tag": "v0.1.0",
       "recordSha256": "52529d96b46e416548499c57725e9286b02b8c2a5c902572d127d81e8edf901b"
+    },
+    {
+      "id": "snapshot-inspector",
+      "version": "0.1.1.0",
+      "repository": "joshua-small/qsys-snapshot-inspector",
+      "commit": "9b32946fefb87079394e3ef8e98c58dee5932423",
+      "tag": "v0.1.1",
+      "recordSha256": "6965e449feca49b3ce53c8ebd1694eec601916536ed57a5c1c1b48e868cafd7d"
     }
   ]
 }

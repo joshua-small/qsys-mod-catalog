@@ -4,165 +4,180 @@
     {
       "id": "automatic-geometry",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-automatic-geometry/21557197397d622a7c0f4da40e035613c8ea6b27/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-automatic-geometry/0569650c03e7df6d80ff2d566048c0e3bf08d1d4/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-automatic-geometry",
       "releaseNotes": {
         "0.1.1.0": "Automatic component widths for full control-pin labels, plus 10-unit Container and Channel Group connectors with centered labels and pins. Restart Designer; no extra action is needed.",
-        "0.1.2.0": "Q-SYS Mod Manager now enables Automatic Geometry by installing its module and disables it by removing that managed module. This version no longer needs a separate enable-marker file beside Designer. The exact Designer 10.5 build checks remain in place.\n\nUse the manager\u0027s previewed update to migrate from an older package and remove its managed legacy marker. Restart Designer after installation.\n\nThe catalog listing now uses the supplied Avitex artwork. Its description, image and release notes are owned and published by this repository."
+        "0.1.2.0": "Q-SYS Mod Manager now enables Automatic Geometry by installing its module and disables it by removing that managed module. This version no longer needs a separate enable-marker file beside Designer. The exact Designer 10.5 build checks remain in place.\n\nUse the manager\u0027s previewed update to migrate from an older package and remove its managed legacy marker. Restart Designer after installation.\n\nThe catalog listing now uses the supplied Avitex artwork. Its description, image and release notes are owned and published by this repository.",
+        "0.1.3.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "better-packing",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-packing/6d57add90ee56553017ce13baaa4b7458c278d42/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-packing/16ddeb2da17065da6e047467bb460b157269d9cf/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-better-packing",
       "releaseNotes": {
         "0.1.0.0": "Better Packing\n\nPack schematic components and Layout items with exposed control-pin spacing, a saved gap, and optional replacement of native Pack commands.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
         "0.2.0.0": "Better Packing 0.2.0\n\nRequires Q-SYS Mods Core 0.1.6 or newer within 0.1.x, Q-SYS Mod Manager 0.8\u002B, and the exact supported Designer 10.5 build. Better Shortcuts is optional.\n\nThe four native Pack directions use Better Packing by default and retain one canonical action and their existing shortcuts. One Preferences checkbox restores all four native implementations without resetting user bindings. Legacy standalone assignments migrate to their native actions, preserving distinct alternatives and overwrite consent. Existing opt-outs survive migration. Center operations remain separate unbound actions; packing geometry is unchanged.\n\nThe new 0.2 package range enforces the updated Core dependency while retaining every historical 0.1.x package and approval. Windows CI now runs the existing 11 shared-router checks alongside the 18 geometry checks. Prior disposable Designer acceptance covers the four physical root-schematic shortcuts and native opt-out. Remaining menu, UCI and broader context acceptance stays in issue #2; this release does not claim new Designer or hardware coverage.",
         "0.2.1.0": "Better Packing 0.2.1\n\nChoose Native or Better Packing separately for each element category in the Schematic and UCI editors, under File \u003E Preferences \u003E Better Packing. Defaults keep Better Packing for schematic components and Layout items, and native packing for schematic graphics/controls and every UCI category. A mixed selection uses native packing when any selected category is Native. Existing saved gaps, shortcuts and the master opt-out are retained.\n\nOpted-in controls, headers, text, group boxes, images and polygons use the saved gap. Polygon packing accounts for vertex offsets from the model origin, including fractional offsets, without changing the vertices. All six native Pack commands now share the routing policy; former standalone center shortcuts migrate to their native equivalents. The explicit Better Packing window continues to apply enhanced packing independently of the routing choices. Groups, Flexboxes, unlisted types and component control panels retain native handling.\n\nRequires Q-SYS Mods Core 0.1.6 or newer within 0.1.x, Q-SYS Mod Manager 0.8\u002B, and the exact supported Designer 10.5 build. Better Shortcuts is optional. The fast Alt \u002B right-drag gap HUD remains future work.\n\nValidation includes 25 portable contract checks and 23 Windows WPF routing/selection checks. Scoped native Designer evidence and remaining acceptance limits are recorded in docs/ELEMENT-PACKING.md and issue #2. This release makes no hardware or deployed-UCI claim.",
         "0.2.2.0": "Adds Pack to Top Pins and Pack to Bottom Pins using actual rendered pin centers, with a preference for main or exposed control pins. Preserves 0.2.1 per-editor packing choices, all six native commands and saved shortcuts. Pin actions are schematic-only and reject unavailable geometry before moving anything.\nNative Designer checks cover nested Container/Channel Group pin alignment, main/exposed pins, grouped undo/redo, registered commands, and snap-target registration. Physical drag/key input and connected-wire coverage remain limited; no DSP/hardware claim.",
-        "0.3.0.0": "Adds separate Pack to Top Main Pins, Bottom Main Pins, Top Drawer Pins and Bottom Drawer Pins actions. Removes the global pin-group checkbox while preserving legacy shortcut IDs and full drawn spacing. The operation window now supports document Undo/Redo through Core 0.1.8. Requires Core \u003E=0.1.8 and \u003C0.2.0; historical package policies remain unchanged. All four buttons and focused-window Ctrl\u002BZ/Ctrl\u002BY passed physical Designer checks; attached wires and save/reopen persistence passed. Fixture Input/Output labels remain test-only."
+        "0.3.0.0": "Adds separate Pack to Top Main Pins, Bottom Main Pins, Top Drawer Pins and Bottom Drawer Pins actions. Removes the global pin-group checkbox while preserving legacy shortcut IDs and full drawn spacing. The operation window now supports document Undo/Redo through Core 0.1.8. Requires Core \u003E=0.1.8 and \u003C0.2.0; historical package policies remain unchanged. All four buttons and focused-window Ctrl\u002BZ/Ctrl\u002BY passed physical Designer checks; attached wires and save/reopen persistence passed. Fixture Input/Output labels remain test-only.",
+        "0.3.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "better-probes-injectors",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-probes-injectors/a76a22fa7c417ed4215779a0b5fd2935aec813b5/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-probes-injectors/f056305ce3ec4177073d0f43dee56fae3538e210/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-better-probes-injectors",
       "releaseNotes": {
         "0.1.0.0": "Adds attached-tip and home-component destinations to Designer\u0027s native Find by Context.\n\nSeven commands provide separate next/previous probe and injector cycling, focused-tip navigation, home-component navigation and return home. Assign keys in Better Shortcuts; no default keys or existing assignments are changed.\n\nDesigner 10.5 Emulate checks verified native Find destinations and actual tip highlighting, physical shortcut cycling and wraparound, Find Home without detaching, and returning one focused tool while preserving the other attachment and gain/mute settings. Fixes cover unwired injector inputs and native tip highlight geometry.\n\nRequires the exact supported Designer 10.5.0 build and Mods Core \u003E=0.1.6 and \u003C0.2.0. The package contains one private DLL. Release build: zero warnings/errors; 65 portable behavior checks and 73 host metadata checks passed. Live Core/hardware, nested/closed-page destinations, floating command dispatch, Command Palette execution and Undo remain outside this acceptance scope. See docs/VALIDATION.md.",
-        "0.1.1.0": "Adds default shortcuts: Ctrl\u002BF11 / Ctrl\u002BShift\u002BF11 for next/previous Probe, Ctrl\u002BF12 / Ctrl\u002BShift\u002BF12 for next/previous Injector, and Ctrl\u002BAlt\u002BH to return the focused tool home.\n\nDefaults use Mods Core\u0027s shared shortcut registry. Existing custom or cleared bindings take precedence, and conflicting defaults remain inactive without overwriting another action. Find Focused and Find Home remain unassigned. Better Shortcuts is optional for customization.\n\nRequires the same exact Designer 10.5.0 build and Mods Core \u003E=0.1.6 and \u003C0.2.0. Navigation and return-home behavior are unchanged. See docs/VALIDATION.md for scoped application acceptance and remaining limits."
+        "0.1.1.0": "Adds default shortcuts: Ctrl\u002BF11 / Ctrl\u002BShift\u002BF11 for next/previous Probe, Ctrl\u002BF12 / Ctrl\u002BShift\u002BF12 for next/previous Injector, and Ctrl\u002BAlt\u002BH to return the focused tool home.\n\nDefaults use Mods Core\u0027s shared shortcut registry. Existing custom or cleared bindings take precedence, and conflicting defaults remain inactive without overwriting another action. Find Focused and Find Home remain unassigned. Better Shortcuts is optional for customization.\n\nRequires the same exact Designer 10.5.0 build and Mods Core \u003E=0.1.6 and \u003C0.2.0. Navigation and return-home behavior are unchanged. See docs/VALIDATION.md for scoped application acceptance and remaining limits.",
+        "0.1.2.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "better-shortcuts",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-shortcuts/bd6418d53ec03bb2e2d94bd8920660926340003e/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-better-shortcuts/879b8076f249a7f783d27367e1342af3254fd641/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-better-shortcuts",
       "releaseNotes": {
         "0.1.0.0": "Better Shortcuts\n\nCustomize shortcuts for mod commands and native Designer commands, including dark mode, sidebars, programmer mode, and component controls.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
-        "0.2.0.0": "Better Shortcuts 0.2.0\n\nRequires Q-SYS Mods Core 0.1.6 or newer within 0.1.x, Q-SYS Mod Manager 0.8\u002B, and the exact supported Designer 10.5 build. The new package range enforces the dependency without changing historical 0.1.x packages or approvals.\n\nPublishes the reviewed searchable command table, two-stroke recorder, explicit conflict overwrite, bulk default adoption, contextual adapters and effective native menu hints. Core remains the sole owner of shortcut registration, dispatch and persistence. Existing personal bindings and unrelated alternatives are preserved; recording and Preferences edits retain their shared save/cancel draft.\n\nRecorded acceptance includes physical recorder/save, populated floating Component Controls, docked Monaco/Legacy editors, native property fields, native F5/F6/F7 and editing icon-menu hints/clicks. These results retain their original version and physical/automated attribution. Detached Actipro windows remain unsupported; additional commands, browser hosts and runtime UCI PopupTool acceptance remain in issue #2, with proposed new actions in issue #4. This packaging release adds no new Designer or hardware acceptance."
+        "0.2.0.0": "Better Shortcuts 0.2.0\n\nRequires Q-SYS Mods Core 0.1.6 or newer within 0.1.x, Q-SYS Mod Manager 0.8\u002B, and the exact supported Designer 10.5 build. The new package range enforces the dependency without changing historical 0.1.x packages or approvals.\n\nPublishes the reviewed searchable command table, two-stroke recorder, explicit conflict overwrite, bulk default adoption, contextual adapters and effective native menu hints. Core remains the sole owner of shortcut registration, dispatch and persistence. Existing personal bindings and unrelated alternatives are preserved; recording and Preferences edits retain their shared save/cancel draft.\n\nRecorded acceptance includes physical recorder/save, populated floating Component Controls, docked Monaco/Legacy editors, native property fields, native F5/F6/F7 and editing icon-menu hints/clicks. These results retain their original version and physical/automated attribution. Detached Actipro windows remain unsupported; additional commands, browser hosts and runtime UCI PopupTool acceptance remain in issue #2, with proposed new actions in issue #4. This packaging release adds no new Designer or hardware acceptance.",
+        "0.2.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "clipboard-compat",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-clipboard-compat/e4be3d91e932a3e435e5d72090ddd1e51d84ce6b/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-clipboard-compat/df3dabdd26162543baba11c7f1dbcc6794e8cd1c/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-clipboard-compat",
       "releaseNotes": {
-        "0.1.0.0": "Clipboard Compatibility 0.1.0\n\nRestores native component Copy All/Paste All using a bounded JSON clipboard transport on the exact inspected Designer 10.5.0 build. Requires Mods Core 0.1.5; Better Shortcuts is optional. Adds no shortcuts or preferences and preserves custom bindings.\n\nValidated with 21 payload checks, 14 native transport/Harmony checks, and two Gains in disposable Designer Emulate using native commands and actual mouse input. Other component types and physical Core behavior remain untested.\n\nThis temporary compatibility mod is intended to be deprecated after QSC provides a verified native fix. Disable or remove it in Mod Manager with Designer closed, then restart and copy again. Historical package pins will be retained. Clipboard interoperability requires this mod in both participating Designer processes."
+        "0.1.0.0": "Clipboard Compatibility 0.1.0\n\nRestores native component Copy All/Paste All using a bounded JSON clipboard transport on the exact inspected Designer 10.5.0 build. Requires Mods Core 0.1.5; Better Shortcuts is optional. Adds no shortcuts or preferences and preserves custom bindings.\n\nValidated with 21 payload checks, 14 native transport/Harmony checks, and two Gains in disposable Designer Emulate using native commands and actual mouse input. Other component types and physical Core behavior remain untested.\n\nThis temporary compatibility mod is intended to be deprecated after QSC provides a verified native fix. Disable or remove it in Mod Manager with Designer closed, then restart and copy again. Historical package pins will be retained. Clipboard interoperability requires this mod in both participating Designer processes.",
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "color-palette-aligned",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-color-palette-aligned/be2c616abf512d439021aa7e5fb80110cb110f0e/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-color-palette-aligned/a44820cfa645047ba8970a53202919f2e4691862/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-color-palette-aligned",
       "releaseNotes": {
-        "0.1.0.0": "Color Palette Aligned\n\nAlign the Designer color palette into consistent rows.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+        "0.1.0.0": "Color Palette Aligned\n\nAlign the Designer color palette into consistent rows.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "command-palette",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-command-palette/166502b9c8d318237ff9d72957503b4e2fd7a44e/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-command-palette/92f7d43258fb6f0a42c54d3a15e3a7526a637be4/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-command-palette",
       "releaseNotes": {
-        "0.1.0.0": "Command Palette 0.1.0\n\nOpen with Ctrl\u002BShift\u002BP or Tools \u003E Q-SYS Mods \u003E Command Palette.\nSearch native and registered mod commands by name, category, source, or shortcut.\nUse fuzzy abbreviations, arrow keys, Page Up/Down, Enter, Escape, or double-click.\nSee effective shortcuts, unavailable commands, and recent choices for this session.\nCommands execute after restoring and rechecking the original editor context.\n\nRequires Q-SYS Mods Core 0.1.4 and the exact supported Designer 10.5 build.\nMain-window entry only; floating windows and embedded browser keyboard handling\nare not accepted. Better Shortcuts is optional.\n\nInstall through Q-SYS Mod Manager 0.8 or newer after refreshing its signed catalog."
+        "0.1.0.0": "Command Palette 0.1.0\n\nOpen with Ctrl\u002BShift\u002BP or Tools \u003E Q-SYS Mods \u003E Command Palette.\nSearch native and registered mod commands by name, category, source, or shortcut.\nUse fuzzy abbreviations, arrow keys, Page Up/Down, Enter, Escape, or double-click.\nSee effective shortcuts, unavailable commands, and recent choices for this session.\nCommands execute after restoring and rechecking the original editor context.\n\nRequires Q-SYS Mods Core 0.1.4 and the exact supported Designer 10.5 build.\nMain-window entry only; floating windows and embedded browser keyboard handling\nare not accepted. Better Shortcuts is optional.\n\nInstall through Q-SYS Mod Manager 0.8 or newer after refreshing its signed catalog.",
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "compact-connectors",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-compact-connectors/87b021033b1a9383d909511fd5be3928f4b8e697/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-compact-connectors/9e5fe77d8d8b3b3124edf5ffc10b632ed81753a4/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-compact-connectors",
       "releaseNotes": {
         "0.1.0.0": "Compact 10-unit Container and Channel Group connectors with centered labels, native pin snapping and open-drawer component body snap targets. Independent of Component Auto Width.\nRequires Mods Core 0.1.7 or later within 0.1.x. Replace legacy Automatic Geometry as a grouped Mod Manager profile change; historical packages remain available for rollback. Initialization details are in Preferences \u003E Mod Diagnostics.\nNative Designer checks cover nested Container/Channel Group pin alignment, main/exposed pins, grouped undo/redo, registered commands, and snap-target registration. Physical drag/key input and connected-wire coverage remain limited; no DSP/hardware claim.",
-        "0.1.1.0": "Retains corner snapping alongside pin snapping for connector-only object drags. Compares separate native results per axis, choosing the nearer correction and preferring pins on ties. Native/custom/empty labels are preserved. Validation: 36 fixture checks, 17 exact-host metadata/native-solver checks, and physical Control, AV Stream and MediaCast drags to adjacent corner and pin rows. All 19 connections survived fresh-process reopen. Held-modifier copy/bypass gestures and mixed-selection dragging remain outside this physical check."
+        "0.1.1.0": "Retains corner snapping alongside pin snapping for connector-only object drags. Compares separate native results per axis, choosing the nearer correction and preferring pins on ties. Native/custom/empty labels are preserved. Validation: 36 fixture checks, 17 exact-host metadata/native-solver checks, and physical Control, AV Stream and MediaCast drags to adjacent corner and pin rows. All 19 connections survived fresh-process reopen. Held-modifier copy/bypass gestures and mixed-selection dragging remain outside this physical check.",
+        "0.1.2.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "component-auto-width",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-auto-width/c6451c5d5872bdfc4ced514494b3d3d6bdc46258/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-auto-width/18aeea75136703efa302c01d74b034678a0b076b/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-component-auto-width",
       "releaseNotes": {
-        "0.1.0.0": "Automatically fit component widths to exposed control-pin labels without changing their text. Independent successor to the width feature in Automatic Geometry.\nRequires Mods Core 0.1.7 or later within 0.1.x. Replace legacy Automatic Geometry as a grouped Mod Manager profile change; historical packages remain available for rollback. Initialization details are in Preferences \u003E Mod Diagnostics.\nNative Designer checks cover nested Container/Channel Group pin alignment, main/exposed pins, grouped undo/redo, registered commands, and snap-target registration. Physical drag/key input and connected-wire coverage remain limited; no DSP/hardware claim."
+        "0.1.0.0": "Automatically fit component widths to exposed control-pin labels without changing their text. Independent successor to the width feature in Automatic Geometry.\nRequires Mods Core 0.1.7 or later within 0.1.x. Replace legacy Automatic Geometry as a grouped Mod Manager profile change; historical packages remain available for rollback. Initialization details are in Preferences \u003E Mod Diagnostics.\nNative Designer checks cover nested Container/Channel Group pin alignment, main/exposed pins, grouped undo/redo, registered commands, and snap-target registration. Physical drag/key input and connected-wire coverage remain limited; no DSP/hardware claim.",
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "component-controls-info-filter",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-controls-info-filter/837c03d77ef5d536a3b6189df04dc8a0c4192034/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-component-controls-info-filter/0b694c0b9030295663de6a34145ba691464b68d8/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-component-controls-info-filter",
       "releaseNotes": {
-        "0.1.0.0": "Component Controls Info Filter\n\nFilter Component Controls Info by control name and type.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+        "0.1.0.0": "Component Controls Info Filter\n\nFilter Component Controls Info by control name and type.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "icons-filter",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-icons-filter/37728f940be29adb8039917c9e0132a72b9f98fd/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-icons-filter/d22da081d295be5277c83447c3e39ec672164f5e/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-icons-filter",
       "releaseNotes": {
-        "0.1.0.0": "Icons Filter\n\nSearch the Designer icon picker with text and aliases.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+        "0.1.0.0": "Icons Filter\n\nSearch the Designer icon picker with text and aliases.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "mods-core",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-mods-core/49a27769ea9358949541681a3dc326ddecfb9905/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-mods-core/85d7ef33bc91240a738213dd7ad096d82914f50d/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-mods-core",
       "releaseNotes": {
         "0.1.0.0": "Q-SYS Mods Core\n\nShared Preferences, command registration, host compatibility checks, and theme integration for Q-SYS Designer mods.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
         "0.1.5.0": "Q-SYS Mods Core 0.1.5\n\nCore now owns native and mod command bindings, configurable two-stroke chords,\ncontext guards, and effective shortcut labels without requiring Better Shortcuts.\nExisting native keys and saved assignments take precedence over conflicting mod\ndefaults. Competing defaults remain unassigned, and intentional overwrite uses\nthe shared review/apply flow.\n\nIncludes grouped native-command replacements, retired-command alias migration,\nand a live settings.json interface for supported Q-SYS General preferences and\nmod settings. Changes are validated, conflicts remain visible, and last-good\nrecovery data is preserved. Unsupported or unknown settings are not silently\ntreated as writable native preferences.\n\nThe merged source passed automated contracts and the scoped Designer 10.5\nacceptance documented in docs/SETTINGS-JSON.md and docs/MOD-CONTROLS.md. Physical\nfloating-window and recorder acceptance retains its documented limits.\n\nRequires the exact supported Designer 10.5 binaries and Q-SYS Mod Manager 0.8\u002B.\nUpdate old Better Packing/Better Shortcuts builds to 0.1.1 or newer when used\ntogether. Existing mod preferences and user assignments are retained.",
         "0.1.6.0": "Q-SYS Mods Core 0.1.6\n\nPublishes the reviewed shared command, chord and live-settings implementation together with the subsequent floating-window, editor-input and native icon-menu fixes. This is a new immutable package; it does not replace the earlier public 0.1.5 package or locally tested 0.1.5 pins.\n\nCore owns commands, default shortcuts, deterministic collision handling, effective bindings and validated live settings.json. Better Shortcuts is an optional editor. Existing custom bindings, unknown mod settings, native Preferences and last-good recovery retain their established preservation behavior.\n\nUse Core 0.1.6 with Better Packing 0.2.0 and Better Shortcuts 0.2.0. Both feature packages require Core \u003E=0.1.6 and \u003C0.2.0. Existing compatible Core 0.1.x consumers retain their dependency range. Q-SYS Mod Manager 0.8\u002B and the exact supported Designer 10.5 build remain required.\n\nRecorded acceptance covers the physical recorder/save, populated floating Component Controls, docked Monaco/Legacy editors, native property fields, F5/F6/F7 preservation and native editing icon hints/clicks in the documented US-layout scope. Detached Actipro hosts remain unsupported; additional native commands and contexts remain tracked separately. Native component Paste All is a Q-SYS defect tracked as support case 00404915, with the separate Clipboard Compatibility mod providing the temporary remedy. This packaging release adds no new Designer or hardware acceptance.",
         "0.1.7.0": "Adds File \u003E Preferences \u003E Mod Diagnostics with initialization state, module identity, errors and the diagnostics folder. Feature mods no longer need a status-only menu action. Ready indicates initialization only; it is not a hardware or feature acceptance result.",
-        "0.1.8.0": "Adds opt-in document Undo/Redo routing for modeless mod operation windows, following current shortcuts, remaps and chords while preserving text-local undo, native availability and cleanup. Deduplicates native history gestures before chord matching. Better Packing 0.3.0 adopts the API. Validation: 217 shared-control checks and physical Ctrl\u002BZ/Ctrl\u002BY in the focused Packing window, with exact position restoration and attached wires preserved."
+        "0.1.8.0": "Adds opt-in document Undo/Redo routing for modeless mod operation windows, following current shortcuts, remaps and chords while preserving text-local undo, native availability and cleanup. Deduplicates native history gestures before chord matching. Better Packing 0.3.0 adopts the API. Validation: 217 shared-control checks and physical Ctrl\u002BZ/Ctrl\u002BY in the focused Packing window, with exact position restoration and attached wires preserved.",
+        "0.1.9.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "named-signal-colors",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-named-signal-colors/1f652744643a06c2116b7dea2e6f22c90658b2fa/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-named-signal-colors/04133bfcb2f3cb6396205249b5ad93fdfa8d9034/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-named-signal-colors",
       "releaseNotes": {
         "0.1.0.0": "Named Signal Colors\n\nPreview and apply role-based colors to Named Signals, with a saved palette and an optional default-color filter.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
-        "0.1.1.0": "Named Signal Colors 0.1.1\n\nPalette preferences now use the same color picker as Q-SYS Designer 10.5\u0027s signal-trace preferences, with a swatch, popup picker and exact color entry. Scroll to reach all 24 roles.\n\nExisting opaque RGB palettes are preserved. OK saves the changes and refreshes an existing preview; Cancel discards the edits. Signal colors still change only when you explicitly apply a preview.\n\nRequires the approved Designer 10.5 build, Q-SYS Mods Core 0.1.x and Q-SYS Mod Manager 0.8 or later. Close Designer before installing the update, then reopen it."
+        "0.1.1.0": "Named Signal Colors 0.1.1\n\nPalette preferences now use the same color picker as Q-SYS Designer 10.5\u0027s signal-trace preferences, with a swatch, popup picker and exact color entry. Scroll to reach all 24 roles.\n\nExisting opaque RGB palettes are preserved. OK saves the changes and refreshes an existing preview; Cancel discards the edits. Signal colors still change only when you explicitly apply a preview.\n\nRequires the approved Designer 10.5 build, Q-SYS Mods Core 0.1.x and Q-SYS Mod Manager 0.8 or later. Close Designer before installing the update, then reopen it.",
+        "0.1.2.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "schematic-tools",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-schematic-tools/02d34f792c0f31f07dd7b62648af699e8690bc64/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-schematic-tools/ae2b4f9a070dcccb94a88d9a680359f0b3844372/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-schematic-tools",
       "releaseNotes": {
         "0.15.0.0": "Packing, icon search, editor shortcuts, snapshot indicators, and snapshot value comparison for Q-SYS Designer 10.5. Restart Designer after installation. Open Edit \u2192 Schematic Tools to get started.",
         "0.15.1.0": "Q-SYS Mod Manager now enables Schematic Tools by installing its module and disables it by removing that managed module. This version no longer needs a separate enable-marker file beside Designer. The exact Designer 10.5 build checks remain in place.\n\nUse the manager\u0027s previewed update to migrate from an older package and remove its managed legacy marker. Restart Designer after installation.\n\nThe catalog listing now uses the supplied Avitex artwork. Its description, image and release notes are owned and published by this repository.",
-        "0.17.0.0": "Schematic Tools\n\nOptional selection diagnostics for mod developers. Hidden unless /mods-dev or native development mode is already enabled.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+        "0.17.0.0": "Schematic Tools\n\nOptional selection diagnostics for mod developers. Hidden unless /mods-dev or native development mode is already enabled.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
+        "0.17.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
     {
       "id": "snapshot-inspector",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-snapshot-inspector/a53fde26055346f071e474afe3980dfbbf93a3b3/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-snapshot-inspector/9b32946fefb87079394e3ef8e98c58dee5932423/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-snapshot-inspector",
       "releaseNotes": {
-        "0.1.0.0": "Snapshot Inspector\n\nInspect snapshot membership, navigate to controls, create linked control pages, and compare saved values without recalling snapshots.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README."
+        "0.1.0.0": "Snapshot Inspector\n\nInspect snapshot membership, navigate to controls, create linked control pages, and compare saved values without recalling snapshots.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     }
