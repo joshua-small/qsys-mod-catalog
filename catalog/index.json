@@ -418,6 +418,15 @@
           "url": "https://github.com/joshua-small/qsys-mods-core/releases/download/v0.1.9/mods-core-0.1.9.qdsmod",
           "sha256": "81937b6d6320355799f72fae6dafcbeb366a075e03e17879786acad2e670639c",
           "size": 893407
+        },
+        {
+          "version": "0.1.10.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-mods-core/releases/download/v0.1.10/mods-core-0.1.10.qdsmod",
+          "sha256": "dfe1c14b341f50bc6a55a82eb1b7bbdb79cd8aa21ac8ddf01e24f54998bf46b5",
+          "size": 894231
         }
       ]
     },

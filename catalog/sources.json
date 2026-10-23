@@ -282,6 +282,14 @@
       "recordSha256": "d23265dd6ba6c6cfce1bf1f36ebcd077aadb76556da2e7da461198d4c5e049bf"
     },
     {
+      "id": "mods-core",
+      "version": "0.1.10.0",
+      "repository": "joshua-small/qsys-mods-core",
+      "commit": "b046960b250fe41285b4612913cf32dfb532b16c",
+      "tag": "v0.1.10",
+      "recordSha256": "fba7a926d5258e7be56014d842fbabbd422d434c3c080d4601ce03f69bfa434c"
+    },
+    {
       "id": "named-signal-colors",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-named-signal-colors",
