@@ -114,6 +114,14 @@
       "recordSha256": "ae4c11372b83dde7da15980326ea54a2cfe9d85c337be64791f209e1451aa020"
     },
     {
+      "id": "better-shortcuts",
+      "version": "0.2.2.0",
+      "repository": "joshua-small/qsys-better-shortcuts",
+      "commit": "0bc8542709bbf252bb904a76eb12c651728568f5",
+      "tag": "v0.2.2",
+      "recordSha256": "729b931e4c6898f5a175993a007fb8e3be29c148b99c1590b18a7d409c47becf"
+    },
+    {
       "id": "clipboard-compat",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-clipboard-compat",

@@ -165,6 +165,15 @@
           "url": "https://github.com/joshua-small/qsys-better-shortcuts/releases/download/v0.2.1/better-shortcuts-0.2.1.qdsmod",
           "sha256": "cf736d5e127a47ccbac5034f1cb8ec320f9062c322087b2555540797a4655b97",
           "size": 49029
+        },
+        {
+          "version": "0.2.2.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-shortcuts/releases/download/v0.2.2/better-shortcuts-0.2.2.qdsmod",
+          "sha256": "04f22450367314109ef33c48e0d0699567aa0844e90cbf3c5bf210195dd4ce5d",
+          "size": 49533
         }
       ]
     },
