@@ -339,6 +339,15 @@
           "url": "https://github.com/joshua-small/qsys-component-controls-info-filter/releases/download/v0.1.1/component-controls-info-filter-0.1.1.qdsmod",
           "sha256": "37e9447cb76637c7dbe3717071801ae6c3ba0a635d3d9608722669f71f640c74",
           "size": 7252
+        },
+        {
+          "version": "0.1.2.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-component-controls-info-filter/releases/download/v0.1.2/component-controls-info-filter-0.1.2.qdsmod",
+          "sha256": "27d32ebdd5448d11882cb8de05eab6cb06912a7af8dd9c7fcb8038420dacf9e3",
+          "size": 8915
         }
       ]
     },

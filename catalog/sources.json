@@ -226,6 +226,14 @@
       "recordSha256": "3dfb8ffbe2dd00c3b8b83acd42e57cf0b83d6df15c4d47f624ceb868507e9f45"
     },
     {
+      "id": "component-controls-info-filter",
+      "version": "0.1.2.0",
+      "repository": "joshua-small/qsys-component-controls-info-filter",
+      "commit": "3a5bd5bbe70ebcde555f7b8961f4f8d8b57df296",
+      "tag": "v0.1.2",
+      "recordSha256": "ca22363cc33214c2edfa1121b4a778544abe9a5d53ce7147ea6d6754a826edc4"
+    },
+    {
       "id": "icons-filter",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-icons-filter",
