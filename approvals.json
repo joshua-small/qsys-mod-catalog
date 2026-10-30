@@ -253,6 +253,32 @@
           ],
           "minimumVersion": "0.3.0",
           "beforeVersion": "0.4.0"
+        },
+        {
+          "schema": 3,
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.10",
+              "before": "0.2.0"
+            }
+          ],
+          "files": [
+            {
+              "sha256": null,
+              "shared": false,
+              "name": "Designer.Modules.BetterPacking.dll"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ],
+          "minimumVersion": "0.4.0",
+          "beforeVersion": "0.5.0"
         }
       ],
       "repository": "joshua-small/qsys-better-packing",
