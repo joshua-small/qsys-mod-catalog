@@ -323,6 +323,32 @@
           ],
           "minimumVersion": "0.1.0",
           "beforeVersion": "0.2.0"
+        },
+        {
+          "schema": 3,
+          "minimumVersion": "0.2.0",
+          "beforeVersion": "0.3.0",
+          "files": [
+            {
+              "name": "Designer.Modules.SnapshotInspector.dll",
+              "shared": false,
+              "sha256": null
+            }
+          ],
+          "dependencies": [
+            {
+              "id": "mods-core",
+              "minimum": "0.1.10",
+              "before": "0.2.0"
+            }
+          ],
+          "conflicts": [
+            {
+              "id": "schematic-tools",
+              "minimum": "0.0.0",
+              "before": "0.17.0"
+            }
+          ]
         }
       ],
       "repository": "joshua-small/qsys-snapshot-inspector",
