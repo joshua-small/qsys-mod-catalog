@@ -77,11 +77,12 @@
     {
       "id": "command-palette",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-command-palette/92f7d43258fb6f0a42c54d3a15e3a7526a637be4/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-command-palette/59afd1188529e26628c443d43a7c4034e4971825/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-command-palette",
       "releaseNotes": {
         "0.1.0.0": "Command Palette 0.1.0\n\nOpen with Ctrl\u002BShift\u002BP or Tools \u003E Q-SYS Mods \u003E Command Palette.\nSearch native and registered mod commands by name, category, source, or shortcut.\nUse fuzzy abbreviations, arrow keys, Page Up/Down, Enter, Escape, or double-click.\nSee effective shortcuts, unavailable commands, and recent choices for this session.\nCommands execute after restoring and rechecking the original editor context.\n\nRequires Q-SYS Mods Core 0.1.4 and the exact supported Designer 10.5 build.\nMain-window entry only; floating windows and embedded browser keyboard handling\nare not accepted. Better Shortcuts is optional.\n\nInstall through Q-SYS Mod Manager 0.8 or newer after refreshing its signed catalog.",
-        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
+        "0.1.1.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged.",
+        "0.1.2.0": "Command Palette 0.1.2\n\n- Open the palette as a normal window with a title bar and taskbar entry.\n- Cancel command execution if checking availability changes the captured editor\n  context or keyboard focus. A canceled invocation cannot be retried after\n  context is restored.\n\nCtrl\u002BShift\u002BP, command search, recent commands, and Core registry routing are\nunchanged. Escape and clicking away still cancel the palette. Entry remains\nlimited to the main Designer window.\n\nValidation: 23 portable checks and 19 standalone Windows WPF checks passed.\nDesigner 10.5.0 and 10.5.1 checks with Core 0.1.11 covered the physical shortcut,\nmenu entry, focus restoration, native command dispatch, cancellation, and\nDuplicate/Undo. The focus-changing availability case canceled with zero\ndispatches on both builds. On 10.5.1, Undo restored the exact model and native\nclean state; one Redo entry and the title\u0027s asterisk remained. Actual shell\ntaskbar-button interaction and UCI/remapping/hardware contexts are outside the\nrecorded qualification.\n\nRequires Q-SYS Mods Core 0.1.4 or newer within the 0.1 series. Package compatibility\nand Core host checks determine whether the mod can load; they do not establish\napplication acceptance on another Designer build. See docs/VALIDATION.md for\nthe recorded checks and remaining acceptance scope."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },
@@ -149,12 +150,13 @@
     {
       "id": "named-signal-colors",
       "author": "joshua-small",
-      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-named-signal-colors/04133bfcb2f3cb6396205249b5ad93fdfa8d9034/catalog/artwork/avitex.ico",
+      "thumbnail": "https://raw.githubusercontent.com/joshua-small/qsys-named-signal-colors/5d2d637efa4e54cb3c0db8fba432bfe876154942/catalog/artwork/avitex.ico",
       "helpUrl": "https://github.com/joshua-small/qsys-named-signal-colors",
       "releaseNotes": {
         "0.1.0.0": "Named Signal Colors\n\nPreview and apply role-based colors to Named Signals, with a saved palette and an optional default-color filter.\n\nRequires the approved Designer 10.5 build and Q-SYS Mod Manager 0.8 or later. Use the manager migration when replacing the legacy Schematic Tools bundle. Source and isolated-host validation are recorded in the repository README.",
         "0.1.1.0": "Named Signal Colors 0.1.1\n\nPalette preferences now use the same color picker as Q-SYS Designer 10.5\u0027s signal-trace preferences, with a swatch, popup picker and exact color entry. Scroll to reach all 24 roles.\n\nExisting opaque RGB palettes are preserved. OK saves the changes and refreshes an existing preview; Cancel discards the edits. Signal colors still change only when you explicitly apply a preview.\n\nRequires the approved Designer 10.5 build, Q-SYS Mods Core 0.1.x and Q-SYS Mod Manager 0.8 or later. Close Designer before installing the update, then reopen it.",
-        "0.1.2.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged."
+        "0.1.2.0": "Maintenance release. Rebuilt packages with updated release metadata. Existing functionality and compatibility are unchanged.",
+        "0.1.3.0": "Selection previews now ignore components, annotations, shapes and unnamed pins. Select a Named Signal tag or named pin to include its group; matching tags across pages continue to change together.\n\nRemoved the 256-group preview limit for selected signals and the entire design, and improved Apply revalidation for larger previews. The existing limits of 256 associated pins per group and 4096 total associated pins remain.\n\nValidated on Designer 10.5.0 with Mods Core 0.1.9 and on Designer 10.5.1 with Mods Core 0.1.11. Checks include mixed selections, 300 selected groups, 303 whole-design groups, grouped Undo/Redo, Preferences cancellation and fresh-process saved-file reopening. The 10.5.1 reopen preserved all 618 pin records and 303 groups. Validation used disconnected Design mode; no runtime/hardware support is claimed. The package host guard and exact-build installation consent remain unchanged."
       },
       "thumbnailSha256": "3d6de532a364097398b2e69aa42309b214b1db318b30928dcbfbcdceb617aba4"
     },

@@ -243,6 +243,15 @@
           "url": "https://github.com/joshua-small/qsys-command-palette/releases/download/v0.1.1/command-palette-0.1.1.qdsmod",
           "sha256": "c9a5cfb1d7133b79da0acdbb420edaee227be431ac3f31954cf028b01326af86",
           "size": 16286
+        },
+        {
+          "version": "0.1.2.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-command-palette/releases/download/v0.1.2/command-palette-0.1.2.qdsmod",
+          "sha256": "05decc502f62103b6e21500302c1a5eb59c6e1b15f735a481fd34d0a0f6518ba",
+          "size": 16478
         }
       ]
     },
@@ -462,6 +471,15 @@
           "url": "https://github.com/joshua-small/qsys-named-signal-colors/releases/download/v0.1.2/named-signal-colors-0.1.2.qdsmod",
           "sha256": "04f0330dcad7ce78d3189fd619a941e90fbeacdb081c5fd52d74c7b043e77a9b",
           "size": 31604
+        },
+        {
+          "version": "0.1.3.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-named-signal-colors/releases/download/v0.1.3/named-signal-colors-0.1.3.qdsmod",
+          "sha256": "f16edc071292b5f0fb50b27ba3ec3b82fa2b2135b8457e63a54c37c01fa40573",
+          "size": 32186
         }
       ]
     },
