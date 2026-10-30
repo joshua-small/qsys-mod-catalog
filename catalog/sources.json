@@ -306,6 +306,14 @@
       "recordSha256": "fba7a926d5258e7be56014d842fbabbd422d434c3c080d4601ce03f69bfa434c"
     },
     {
+      "id": "mods-core",
+      "version": "0.1.11.0",
+      "repository": "joshua-small/qsys-mods-core",
+      "commit": "96926c974ea020dba718816cfbe33a793e92d5f0",
+      "tag": "v0.1.11",
+      "recordSha256": "b87a70803ae87c4c258e287ca037a1223056822ff26c8fe6cda960e29b157092"
+    },
+    {
       "id": "named-signal-colors",
       "version": "0.1.0.0",
       "repository": "joshua-small/qsys-named-signal-colors",
@@ -360,6 +368,14 @@
       "commit": "ae2b4f9a070dcccb94a88d9a680359f0b3844372",
       "tag": "v0.17.1",
       "recordSha256": "28482b0946dff4ed740acd42ec32963ce6ec751680b53344ea1bfb3436c1139a"
+    },
+    {
+      "id": "schematic-tools",
+      "version": "0.17.2.0",
+      "repository": "joshua-small/qsys-schematic-tools",
+      "commit": "7ab4a5952e88b5e27e5a6fc20ae08e7b6fcca359",
+      "tag": "v0.17.2",
+      "recordSha256": "6037a850328dfec3f768375255eff997ba6cb9f289a6aa5274fce7ad130db9a3"
     },
     {
       "id": "snapshot-inspector",
