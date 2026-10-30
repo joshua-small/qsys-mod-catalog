@@ -130,6 +130,15 @@
           "url": "https://github.com/joshua-small/qsys-better-probes-injectors/releases/download/v0.1.2/better-probes-injectors-0.1.2.qdsmod",
           "sha256": "00e2032508fca9a5d254b9c0f2937f22899c9196bcc7c87341e4a999510752d5",
           "size": 24779
+        },
+        {
+          "version": "0.1.3.0",
+          "designerVersion": "10.5",
+          "hostSha256": "0e7150f8dc02e0159e019188780fb003ce025f5ec18c491609cf337d849bda60",
+          "commonSha256": "a6d1addda06bdcb1ad32b57c7480c947210c3d3ad287f5818c2ea64068bf5aee",
+          "url": "https://github.com/joshua-small/qsys-better-probes-injectors/releases/download/v0.1.3/better-probes-injectors-0.1.3.qdsmod",
+          "sha256": "b50715503d52cabfd9517cc10290a0a0a9e2aac8cfbd19e31359f70d40f1dbc2",
+          "size": 25125
         }
       ]
     },
